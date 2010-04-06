@@ -1,0 +1,1743 @@
+Release 11.5 Map L.70 (lin64)
+Xilinx Map Application Log File for Design 'system'
+
+Design Information
+------------------
+Command Line   : map -ise ../__xps/ise/system.ise -o system_map.ncd -pr b -ol
+high -timing -detail system.ngd system.pcf 
+Target Device  : xc3sd1800a
+Target Package : fg676
+Target Speed   : -4
+Mapper Version : spartan3adsp -- $Revision: 1.51.18.1 $
+Mapped Date    : Mon Apr  5 20:53:33 2010
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+INFO:Security:67 - XILINXD_LICENSE_FILE is set to
+'/opt/Xilinx/11.5/EDK/data/core_licenses' in /home/aalonso/.flexlmrc.
+INFO:Security:54 - 'xc3sd1800a' is a WebPack part.
+WARNING:Security:42 - Your license support version '2010.04' for WebPack expires
+in 24 days after which you will not qualify for Xilinx software updates or new
+releases.
+----------------------------------------------------------------------
+WARNING:LIT:243 - Logical network N60 has no load.
+WARNING:LIT:243 - Logical network N61 has no load.
+WARNING:LIT:243 - Logical network N62 has no load.
+WARNING:LIT:243 - Logical network N63 has no load.
+WARNING:LIT:243 - Logical network N64 has no load.
+WARNING:LIT:243 - Logical network N65 has no load.
+WARNING:LIT:243 - Logical network N66 has no load.
+WARNING:LIT:243 - Logical network N67 has no load.
+WARNING:LIT:243 - Logical network N68 has no load.
+WARNING:LIT:243 - Logical network N69 has no load.
+WARNING:LIT:243 - Logical network N70 has no load.
+WARNING:LIT:243 - Logical network N71 has no load.
+WARNING:LIT:243 - Logical network N72 has no load.
+WARNING:LIT:243 - Logical network N73 has no load.
+WARNING:LIT:243 - Logical network N74 has no load.
+WARNING:LIT:243 - Logical network N75 has no load.
+WARNING:LIT:243 - Logical network N76 has no load.
+WARNING:LIT:243 - Logical network N77 has no load.
+WARNING:LIT:243 - Logical network N78 has no load.
+WARNING:LIT:243 - Logical network N79 has no load.
+WARNING:LIT:243 - Logical network N80 has no load.
+WARNING:LIT:243 - Logical network N81 has no load.
+WARNING:LIT:243 - Logical network N82 has no load.
+WARNING:LIT:243 - Logical network N83 has no load.
+WARNING:LIT:243 - Logical network N84 has no load.
+WARNING:LIT:243 - Logical network N85 has no load.
+WARNING:LIT:243 - Logical network N86 has no load.
+WARNING:LIT:243 - Logical network N87 has no load.
+WARNING:LIT:243 - Logical network N88 has no load.
+WARNING:LIT:243 - Logical network N89 has no load.
+WARNING:LIT:243 - Logical network N90 has no load.
+WARNING:LIT:243 - Logical network N91 has no load.
+WARNING:LIT:243 - Logical network N92 has no load.
+WARNING:LIT:243 - Logical network N93 has no load.
+WARNING:LIT:243 - Logical network N94 has no load.
+WARNING:LIT:243 - Logical network N95 has no load.
+WARNING:LIT:243 - Logical network N96 has no load.
+WARNING:LIT:243 - Logical network N97 has no load.
+WARNING:LIT:243 - Logical network N98 has no load.
+WARNING:LIT:243 - Logical network N99 has no load.
+WARNING:LIT:243 - Logical network fpga_0_SPI_FLASH_SS_pin_I<0> has no load.
+WARNING:LIT:243 - Logical network fpga_0_SPI_FLASH_SS_pin_I<1> has no load.
+WARNING:LIT:243 - Logical network fpga_0_SPI_FLASH_SS_pin_I<2> has no load.
+WARNING:LIT:243 - Logical network fpga_0_SPI_FLASH_SS_pin_I<3> has no load.
+WARNING:LIT:243 - Logical network fpga_0_SPI_FLASH_SS_pin_I<4> has no load.
+WARNING:LIT:243 - Logical network ilmb_LMB_ABus<10> has no load.
+WARNING:LIT:243 - Logical network ilmb_LMB_ABus<11> has no load.
+WARNING:LIT:243 - Logical network ilmb_LMB_ABus<12> has no load.
+WARNING:LIT:243 - Logical network ilmb_LMB_ABus<13> has no load.
+WARNING:LIT:243 - Logical network ilmb_LMB_ABus<14> has no load.
+WARNING:LIT:243 - Logical network ilmb_LMB_ABus<15> has no load.
+WARNING:LIT:243 - Logical network ilmb_LMB_ABus<1> has no load.
+WARNING:LIT:243 - Logical network ilmb_LMB_ABus<2> has no load.
+WARNING:LIT:243 - Logical network ilmb_LMB_ABus<30> has no load.
+WARNING:LIT:243 - Logical network ilmb_LMB_ABus<31> has no load.
+WARNING:LIT:243 - Logical network ilmb_LMB_ABus<3> has no load.
+WARNING:LIT:243 - Logical network ilmb_LMB_ABus<4> has no load.
+WARNING:LIT:243 - Logical network ilmb_LMB_ABus<5> has no load.
+WARNING:LIT:243 - Logical network ilmb_LMB_ABus<6> has no load.
+WARNING:LIT:243 - Logical network ilmb_LMB_ABus<7> has no load.
+WARNING:LIT:243 - Logical network ilmb_LMB_ABus<8> has no load.
+WARNING:LIT:243 - Logical network ilmb_LMB_ABus<9> has no load.
+WARNING:LIT:243 - Logical network ilmb_LMB_ReadStrobe has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MBusy<0> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MBusy<1> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MIRQ<0> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MIRQ<1> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRdBTerm<0> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRdBTerm<1> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRdDBus<100> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRdDBus<101> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRdDBus<102> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRdDBus<103> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRdDBus<104> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRdDBus<105> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRdDBus<106> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRdDBus<107> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRdDBus<108> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRdDBus<109> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRdDBus<110> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRdDBus<111> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRdDBus<112> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRdDBus<113> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRdDBus<114> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRdDBus<115> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRdDBus<116> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRdDBus<117> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRdDBus<118> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRdDBus<119> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRdDBus<120> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRdDBus<121> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRdDBus<122> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRdDBus<123> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRdDBus<124> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRdDBus<125> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRdDBus<126> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRdDBus<127> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRdDBus<32> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRdDBus<33> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRdDBus<34> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRdDBus<35> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRdErr<0> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRdErr<1> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRdWdAddr<0> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRdWdAddr<1> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRdWdAddr<2> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRdWdAddr<3> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRearbitrate<0> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRearbitrate<1> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MSSize<0> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MSSize<1> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MSSize<2> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MSSize<3> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MWrBTerm<0> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MWrBTerm<1> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MWrErr<0> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MWrErr<1> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_TAttribute<0> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_TAttribute<10> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_TAttribute<11> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_TAttribute<12> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_TAttribute<13> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_TAttribute<14> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_TAttribute<15> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_TAttribute<1> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_TAttribute<2> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_TAttribute<3> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_TAttribute<4> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_TAttribute<5> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_TAttribute<6> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_TAttribute<7> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_TAttribute<8> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_TAttribute<9> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<0> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<10> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<11> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<12> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<13> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<14> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<15> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<16> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<17> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<18> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<19> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<1> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<20> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<21> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<22> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<23> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<24> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<25> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<26> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<27> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<28> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<29> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<2> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<30> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<31> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<3> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<4> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<5> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<6> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<7> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<8> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<9> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_busLock has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_lockErr has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_rdPendPri<0> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_rdPendPri<1> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_rdPendReq has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_rdPrim<0> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_wrPendPri<0> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_wrPendPri<1> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_wrPendReq has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_wrPrim<0> has no load.
+WARNING:LIT:243 - Logical network microblaze_0/microblaze_0/Trace_Data_Write has
+   no load.
+WARNING:LIT:243 - Logical network microblaze_0/microblaze_0/Trace_Data_Access
+   has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/Trace_WB_Jump_Taken has no
+   load.
+WARNING:LIT:243 - Logical network microblaze_0/Trace_MB_Halted has no load.
+WARNING:LIT:243 - Logical network microblaze_0/microblaze_0/Trace_Data_Read has
+   no load.
+WARNING:LIT:243 - Logical network microblaze_0/Trace_Reg_Write has no load.
+WARNING:LIT:243 - Logical network microblaze_0/Trace_Valid_Instr has no load.
+WARNING:LIT:243 - Logical network microblaze_0/Trace_Reg_Addr<0> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<0> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<1> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<2> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<3> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<4> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<5> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<6> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<7> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<8> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<9> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<10> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<11> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<12> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<13> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<14> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<15> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<16> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<17> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<18> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<19> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<20> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<21> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<22> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<23> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<24> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<25> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<26> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<27> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<28> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<29> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<30> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<31> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Byte_Enable<0> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Byte_Enable<1> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Byte_Enable<2> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Byte_Enable<3> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.MMU_I/wb_pid_i<24> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.MMU_I/wb_pid_i<25> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.MMU_I/wb_pid_i<26> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.MMU_I/wb_pid_i<27> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.MMU_I/wb_pid_i<28> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.MMU_I/wb_pid_i<29> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.MMU_I/wb_pid_i<30> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.MMU_I/wb_pid_i<31> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<0> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<1> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<2> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<3> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<4> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<5> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<6> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<7> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<8> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<9> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<10> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<11> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<12> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<13> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<14> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<15> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<16> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<17> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<18> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<19> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<20> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<21> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<22> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<23> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<24> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<25> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<26> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<27> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<28> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<29> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<30> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<31> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<0> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<1> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<2> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<3> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<4> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<5> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<6> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<7> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<8> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<9> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<10> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<11> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<12> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<13> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<14> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<15> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<16> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<17> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<18> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<19> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<20> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<21> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<22> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<23> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<24> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<25> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<26> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<27> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<28> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<29> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<30> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<31> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/exception_registers_I1/FPGA
+   _Target.Gen_Ret_Addr[0].MUXCY_I/LO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/Use_MuxCy[10].OF_Piperun_Stage
+   /Using_FPGA.MUXCY_I/LO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/PC_Module_I/Using_FPGA.Incr_PC
+   [0].MUXCY_I/LO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.MMU_I/Using_TLBS.DTLB_I/Mram_TLBLO28/SP
+   O has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.MMU_I/Using_TLBS.DTLB_I/Mram_TLBLO27/SP
+   O has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.MMU_I/Using_TLBS.DTLB_I/Mram_TLBLO26/SP
+   O has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.MMU_I/Using_TLBS.DTLB_I/Mram_TLBLO25/SP
+   O has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.MMU_I/Using_TLBS.DTLB_I/Mram_TLBLO24/SP
+   O has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.MMU_I/Using_TLBS.DTLB_I/Mram_TLBLO23/SP
+   O has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.MMU_I/Using_TLBS.DTLB_I/Mram_TLBLO21/SP
+   O has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.MMU_I/Using_TLBS.DTLB_I/Mram_TLBLO20/SP
+   O has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.MMU_I/Using_TLBS.DTLB_I/Mram_TLBLO22/SP
+   O has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.MMU_I/Using_TLBS.DTLB_I/Mram_TLBLO19/SP
+   O has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.MMU_I/Using_TLBS.DTLB_I/Mram_TLBLO18/SP
+   O has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.MMU_I/Using_TLBS.DTLB_I/Mram_TLBLO16/SP
+   O has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.MMU_I/Using_TLBS.DTLB_I/Mram_TLBLO15/SP
+   O has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.MMU_I/Using_TLBS.DTLB_I/Mram_TLBLO17/SP
+   O has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.MMU_I/Using_TLBS.DTLB_I/Mram_TLBLO14/SP
+   O has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.MMU_I/Using_TLBS.DTLB_I/Mram_TLBLO13/SP
+   O has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.MMU_I/Using_TLBS.DTLB_I/Mram_TLBLO11/SP
+   O has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.MMU_I/Using_TLBS.DTLB_I/Mram_TLBLO10/SP
+   O has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.MMU_I/Using_TLBS.DTLB_I/Mram_TLBLO12/SP
+   O has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.MMU_I/Using_TLBS.DTLB_I/Mram_TLBLO9/SPO
+   has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.MMU_I/Using_TLBS.DTLB_I/Mram_TLBLO8/SPO
+   has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.MMU_I/Using_TLBS.DTLB_I/Mram_TLBLO6/SPO
+   has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.MMU_I/Using_TLBS.DTLB_I/Mram_TLBLO5/SPO
+   has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.MMU_I/Using_TLBS.DTLB_I/Mram_TLBLO7/SPO
+   has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.MMU_I/Using_TLBS.DTLB_I/Mram_TLBLO4/SPO
+   has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.MMU_I/Using_TLBS.DTLB_I/Mram_TLBLO3/SPO
+   has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.MMU_I/Using_TLBS.DTLB_I/Mram_TLBLO2/SPO
+   has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le2/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le1/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le3/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le4/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le5/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le6/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le7/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le8/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le11/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le9/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le10/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le12/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le13/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le16/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le14/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le15/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le17/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le18/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le21/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le19/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le20/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le22/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le23/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le24/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le25/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le26/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le27/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le30/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le28/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le29/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le31/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le32/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le35/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le33/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le34/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le36/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le37/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le40/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le38/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le39/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le41/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le42/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le43/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le44/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le45/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le46/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le49/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le47/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le48/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le50/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le51/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le54/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le52/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le53/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le55/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le56/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le59/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le57/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le58/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le60/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le61/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le62/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le63/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le64/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_11/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_12/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_13/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_14/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_15/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_16/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_19/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_17/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_18/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_110/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_111/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_114/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_112/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_113/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_115/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_116/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_119/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_117/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_118/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_120/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_121/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_122/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_123/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_124/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_125/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_128/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_126/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_127/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_129/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_130/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_131/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_132/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_133/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_134/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_137/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_135/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_136/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_138/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_139/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_140/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_141/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_142/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_143/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_146/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_144/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_145/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_147/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_148/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_151/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_149/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_150/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_152/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_153/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_156/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_154/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_155/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_157/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_158/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_159/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_160/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_161/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_162/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_163/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren_164/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren1/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren2/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren3/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren6/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren4/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren5/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren7/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren8/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren9/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren10/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren11/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren12/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren15/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren13/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren14/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren16/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren17/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren18/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren19/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren20/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren21/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren24/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren22/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren23/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren25/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren26/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren29/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren27/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren28/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren30/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren31/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren34/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren32/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren33/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren35/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren36/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren37/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren38/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren39/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren40/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren43/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren41/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren42/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren44/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren45/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren48/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren46/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren47/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren49/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren50/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren53/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren51/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren52/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren54/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren55/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren56/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren57/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren58/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren59/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren62/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren60/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren61/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren63/SPO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Register_File_I/Mram_Reg_Fi
+   le_ren64/SPO has no load.
+WARNING:LIT:243 - Logical network mb_plb/Bus_Error_Det has no load.
+WARNING:LIT:243 - Logical network mb_plb/PLB_SrdBTerm has no load.
+WARNING:LIT:243 - Logical network mb_plb/PLB_SrdDAck has no load.
+WARNING:LIT:243 - Logical network mb_plb/PLB_SwrBTerm has no load.
+WARNING:LIT:243 - Logical network mb_plb/PLB_SwrDAck has no load.
+WARNING:LIT:243 - Logical network mb_plb/PLB_Sssize<0> has no load.
+WARNING:LIT:243 - Logical network mb_plb/PLB_Sssize<1> has no load.
+WARNING:LIT:243 - Logical network mb_plb/MPLB_Rst<0> has no load.
+WARNING:LIT:243 - Logical network mb_plb/MPLB_Rst<1> has no load.
+WARNING:LIT:243 - Logical network
+   RS232_Uart_1/RS232_Uart_1/UARTLITE_CORE_I/UARTLITE_TX_I/SRL_FIFO_I/I_SRL_FIFO
+   _RBU_F/CNTR_INCR_DECR_ADDN_F_I/STRUCTURAL_A_GEN.Addr_Counters[4].MUXCY_L_I/LO
+   has no load.
+WARNING:LIT:243 - Logical network
+   RS232_Uart_1/RS232_Uart_1/UARTLITE_CORE_I/UARTLITE_RX_I/SRL_FIFO_I/I_SRL_FIFO
+   _RBU_F/CNTR_INCR_DECR_ADDN_F_I/STRUCTURAL_A_GEN.Addr_Counters[4].MUXCY_L_I/LO
+   has no load.
+WARNING:LIT:243 - Logical network
+   Push_Buttons/Push_Buttons/gpio_core_1/gpio_Data_Out<0> has no load.
+WARNING:LIT:243 - Logical network
+   Push_Buttons/Push_Buttons/gpio_core_1/gpio_Data_Out<1> has no load.
+WARNING:LIT:243 - Logical network
+   Push_Buttons/Push_Buttons/gpio_core_1/gpio_Data_Out<2> has no load.
+WARNING:LIT:243 - Logical network
+   Push_Buttons/Push_Buttons/gpio_core_1/gpio_Data_Out<3> has no load.
+WARNING:LIT:243 - Logical network
+   DIP_Switches_8Bit/DIP_Switches_8Bit/gpio_core_1/gpio_Data_Out<0> has no load.
+WARNING:LIT:243 - Logical network
+   DIP_Switches_8Bit/DIP_Switches_8Bit/gpio_core_1/gpio_Data_Out<1> has no load.
+WARNING:LIT:243 - Logical network
+   DIP_Switches_8Bit/DIP_Switches_8Bit/gpio_core_1/gpio_Data_Out<2> has no load.
+WARNING:LIT:243 - Logical network
+   DIP_Switches_8Bit/DIP_Switches_8Bit/gpio_core_1/gpio_Data_Out<3> has no load.
+WARNING:LIT:243 - Logical network
+   DIP_Switches_8Bit/DIP_Switches_8Bit/gpio_core_1/gpio_Data_Out<4> has no load.
+WARNING:LIT:243 - Logical network
+   DIP_Switches_8Bit/DIP_Switches_8Bit/gpio_core_1/gpio_Data_Out<5> has no load.
+WARNING:LIT:243 - Logical network
+   DIP_Switches_8Bit/DIP_Switches_8Bit/gpio_core_1/gpio_Data_Out<6> has no load.
+WARNING:LIT:243 - Logical network
+   DIP_Switches_8Bit/DIP_Switches_8Bit/gpio_core_1/gpio_Data_Out<7> has no load.
+WARNING:LIT:243 - Logical network
+   Ethernet_MAC/Ethernet_MAC/XEMAC_I/XPS_IPIF_I/PLBV46_BURST_I/I_SLAVE_ATTACHMEN
+   T/I_BURST_SUPPORT/RESPONSE_DBEAT_CNTR_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[6].MUXC
+   Y_I/LO has no load.
+WARNING:LIT:243 - Logical network
+   Ethernet_MAC/Ethernet_MAC/XEMAC_I/XPS_IPIF_I/PLBV46_BURST_I/I_SLAVE_ATTACHMEN
+   T/I_BURST_SUPPORT/CONTROL_DBEAT_CNTR_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[6].MUXCY
+   _I/LO has no load.
+WARNING:LIT:243 - Logical network
+   Ethernet_MAC/Ethernet_MAC/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/rd_ack
+   has no load.
+WARNING:LIT:243 - Logical network
+   Ethernet_MAC/Ethernet_MAC/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/dout<1>
+   has no load.
+WARNING:LIT:243 - Logical network
+   Ethernet_MAC/Ethernet_MAC/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/BU123/L
+   O has no load.
+WARNING:LIT:243 - Logical network
+   Ethernet_MAC/Ethernet_MAC/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/BU126/L
+   O has no load.
+WARNING:LIT:243 - Logical network
+   Ethernet_MAC/Ethernet_MAC/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/BU230/L
+   O has no load.
+WARNING:LIT:243 - Logical network
+   Ethernet_MAC/Ethernet_MAC/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/BU233/L
+   O has no load.
+WARNING:LIT:243 - Logical network
+   Ethernet_MAC/Ethernet_MAC/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/BU123/L
+   O has no load.
+WARNING:LIT:243 - Logical network
+   Ethernet_MAC/Ethernet_MAC/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/BU126/L
+   O has no load.
+WARNING:LIT:243 - Logical network
+   Ethernet_MAC/Ethernet_MAC/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/BU230/L
+   O has no load.
+WARNING:LIT:243 - Logical network
+   Ethernet_MAC/Ethernet_MAC/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/BU233/L
+   O has no load.
+WARNING:LIT:243 - Logical network
+   SPI_FLASH/SPI_FLASH/MAP_SIGNALS_AND_REG_WITH_FIFOS.I_RECEIVE_FIFO/Addr_Counte
+   rs[3].MUXCY_L_I/LO has no load.
+WARNING:LIT:243 - Logical network
+   SPI_FLASH/SPI_FLASH/MAP_SIGNALS_AND_REG_WITH_FIFOS.I_TRANSMIT_FIFO/Addr_Count
+   ers[3].MUXCY_L_I/LO has no load.
+WARNING:LIT:243 - Logical network DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/InitDone has
+   no load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_paths.mpmc_data_path_0/gen_read_fifos[0
+   ].gen_fifos.mpmc_read_fifo_0/gen_fifos_bram.mpmc_bram_fifo_0/PopParity_r<3>
+   has no load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_paths.mpmc_data_path_0/gen_read_fifos[0
+   ].gen_fifos.mpmc_read_fifo_0/gen_fifos_bram.mpmc_bram_fifo_0/PopParity_r<2>
+   has no load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_paths.mpmc_data_path_0/gen_read_fifos[0
+   ].gen_fifos.mpmc_read_fifo_0/gen_fifos_bram.mpmc_bram_fifo_0/PopParity_r<1>
+   has no load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_paths.mpmc_data_path_0/gen_read_fifos[0
+   ].gen_fifos.mpmc_read_fifo_0/gen_fifos_bram.mpmc_bram_fifo_0/PopParity_r<0>
+   has no load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_paths.mpmc_data_path_0/gen_read_fifos[0
+   ].gen_fifos.mpmc_read_fifo_0/gen_fifos_bram.mpmc_bram_fifo_0/PopParity_r<7>
+   has no load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_paths.mpmc_data_path_0/gen_read_fifos[0
+   ].gen_fifos.mpmc_read_fifo_0/gen_fifos_bram.mpmc_bram_fifo_0/PopParity_r<6>
+   has no load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_paths.mpmc_data_path_0/gen_read_fifos[0
+   ].gen_fifos.mpmc_read_fifo_0/gen_fifos_bram.mpmc_bram_fifo_0/PopParity_r<5>
+   has no load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_paths.mpmc_data_path_0/gen_read_fifos[0
+   ].gen_fifos.mpmc_read_fifo_0/gen_fifos_bram.mpmc_bram_fifo_0/PopParity_r<4>
+   has no load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[3].gen_data_ram.strobe0_n/gen_data[7]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[3].gen_data_ram.strobe0_n/gen_data[6]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[3].gen_data_ram.strobe0_n/gen_data[5]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[3].gen_data_ram.strobe0_n/gen_data[4]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[3].gen_data_ram.strobe0_n/gen_data[3]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[3].gen_data_ram.strobe0_n/gen_data[2]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[3].gen_data_ram.strobe0_n/gen_data[1]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[3].gen_data_ram.strobe0_n/gen_data[0]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[3].gen_data_ram.strobe0/gen_data[7]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[3].gen_data_ram.strobe0/gen_data[6]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[3].gen_data_ram.strobe0/gen_data[5]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[3].gen_data_ram.strobe0/gen_data[4]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[3].gen_data_ram.strobe0/gen_data[3]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[3].gen_data_ram.strobe0/gen_data[2]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[3].gen_data_ram.strobe0/gen_data[1]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[3].gen_data_ram.strobe0/gen_data[0]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[2].gen_data_ram.strobe0_n/gen_data[7]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[2].gen_data_ram.strobe0_n/gen_data[6]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[2].gen_data_ram.strobe0_n/gen_data[5]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[2].gen_data_ram.strobe0_n/gen_data[4]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[2].gen_data_ram.strobe0_n/gen_data[3]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[2].gen_data_ram.strobe0_n/gen_data[2]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[2].gen_data_ram.strobe0_n/gen_data[1]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[2].gen_data_ram.strobe0_n/gen_data[0]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[2].gen_data_ram.strobe0/gen_data[7]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[2].gen_data_ram.strobe0/gen_data[6]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[2].gen_data_ram.strobe0/gen_data[5]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[2].gen_data_ram.strobe0/gen_data[4]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[2].gen_data_ram.strobe0/gen_data[3]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[2].gen_data_ram.strobe0/gen_data[2]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[2].gen_data_ram.strobe0/gen_data[1]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[2].gen_data_ram.strobe0/gen_data[0]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[1].gen_data_ram.strobe0_n/gen_data[7]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[1].gen_data_ram.strobe0_n/gen_data[6]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[1].gen_data_ram.strobe0_n/gen_data[5]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[1].gen_data_ram.strobe0_n/gen_data[4]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[1].gen_data_ram.strobe0_n/gen_data[3]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[1].gen_data_ram.strobe0_n/gen_data[2]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[1].gen_data_ram.strobe0_n/gen_data[1]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[1].gen_data_ram.strobe0_n/gen_data[0]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[1].gen_data_ram.strobe0/gen_data[7]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[1].gen_data_ram.strobe0/gen_data[6]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[1].gen_data_ram.strobe0/gen_data[5]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[1].gen_data_ram.strobe0/gen_data[4]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[1].gen_data_ram.strobe0/gen_data[3]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[1].gen_data_ram.strobe0/gen_data[2]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[1].gen_data_ram.strobe0/gen_data[1]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[1].gen_data_ram.strobe0/gen_data[0]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[0].gen_data_ram.strobe0_n/gen_data[7]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[0].gen_data_ram.strobe0_n/gen_data[6]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[0].gen_data_ram.strobe0_n/gen_data[5]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[0].gen_data_ram.strobe0_n/gen_data[4]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[0].gen_data_ram.strobe0_n/gen_data[3]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[0].gen_data_ram.strobe0_n/gen_data[2]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[0].gen_data_ram.strobe0_n/gen_data[1]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[0].gen_data_ram.strobe0_n/gen_data[0]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[0].gen_data_ram.strobe0/gen_data[7]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[0].gen_data_ram.strobe0/gen_data[6]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[0].gen_data_ram.strobe0/gen_data[5]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[0].gen_data_ram.strobe0/gen_data[4]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[0].gen_data_ram.strobe0/gen_data[3]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[0].gen_data_ram.strobe0/gen_data[2]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[0].gen_data_ram.strobe0/gen_data[1]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read/gen_data[0].gen_data_ram.strobe0/gen_data[0]..u_fifo_bit/SPO has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_paths.mpmc_ctrl_path_0/ctrl_path_0/inst
+   antiate_SRLs[6].mpmc_srl_delay_ctrl_bram_out/gen_delay_2plus.SRL16_0/Q has no
+   load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_paths.mpmc_ctrl_path_0/instantiate_repl
+   icate_ctrl_dp_wrfifo_whichport[0].instantiate_ctrl_dp_wrfifo_whichport[0].mpm
+   c_srl_delay_Ctrl_DP_WrFIFO_WhichPort/gen_delay_2plus.SRL16_0/Q has no load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_paths.mpmc_ctrl_path_0/instantiate_repl
+   icate_ctrl_dp_wrfifo_whichport[1].instantiate_ctrl_dp_wrfifo_whichport[0].mpm
+   c_srl_delay_Ctrl_DP_WrFIFO_WhichPort/gen_delay_2plus.SRL16_0/Q has no load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_paths.mpmc_ctrl_path_0/instantiate_repl
+   icate_ctrl_dp_wrfifo_whichport[2].instantiate_ctrl_dp_wrfifo_whichport[0].mpm
+   c_srl_delay_Ctrl_DP_WrFIFO_WhichPort/gen_delay_2plus.SRL16_0/Q has no load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_paths.mpmc_ctrl_path_0/instantiate_repl
+   icate_ctrl_dp_wrfifo_whichport[3].instantiate_ctrl_dp_wrfifo_whichport[0].mpm
+   c_srl_delay_Ctrl_DP_WrFIFO_WhichPort/gen_delay_2plus.SRL16_0/Q has no load.
+WARNING:LIT:243 - Logical network
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_paths.mpmc_ctrl_path_0/instantiate_ctrl
+   _dp_rdfifo_whichport_srls[0].mpmc_srl_delay_Ctrl_DP_RdFIFO_WhichPort/gen_dela
+   y_2plus.SRL16_0/Q has no load.
+WARNING:LIT:243 - Logical network
+   xps_timer_0/xps_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRU
+   CTURAL_A_GEN.I_ADDSUB_GEN[32].MUXCY_I/LO has no load.
+WARNING:LIT:243 - Logical network
+   xps_timer_0/xps_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_AD
+   DSUB_GEN[32].MUXCY_I/LO has no load.
+WARNING:LIT:243 - Logical network mdm_0/Interrupt has no load.
+WARNING:LIT:243 - Logical network mdm_0/Ext_JTAG_RESET has no load.
+WARNING:LIT:243 - Logical network mdm_0/Ext_JTAG_SEL has no load.
+WARNING:LIT:243 - Logical network mdm_0/bscan_drck1 has no load.
+WARNING:LIT:243 - Logical network mdm_0/bscan_sel1 has no load.
+WARNING:LIT:243 - Logical network
+   proc_sys_reset_0/proc_sys_reset_0/RstcPPCresetsys_0 has no load.
+WARNING:LIT:243 - Logical network
+   proc_sys_reset_0/proc_sys_reset_0/RstcPPCresetchip_0 has no load.
+WARNING:LIT:243 - Logical network
+   proc_sys_reset_0/proc_sys_reset_0/RstcPPCresetcore_0 has no load.
+WARNING:LIT:243 - Logical network
+   proc_sys_reset_0/proc_sys_reset_0/RstcPPCresetcore_1 has no load.
+Mapping design into LUTs...
+WARNING:MapLib:701 - Signal fpga_0_Ethernet_MAC_PHY_col_pin connected to top
+   level port fpga_0_Ethernet_MAC_PHY_col_pin has been removed.
+WARNING:LIT:176 - Clock buffer is designated to drive clock loads. BUFGMUX
+   symbol
+   "physical_group_clk_125_0000MHzDCM0/clock_generator_0/clock_generator_0/Using
+   _DCM0.DCM0_INST/Using_BUFG_for_CLK0.CLK0_BUFG_INST" (output
+   signal=clk_125_0000MHzDCM0) has a mix of clock and non-clock loads. The
+   non-clock loads are:
+   Pin I0 of
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/infrastructur
+   e/cal_top/tap_dly/gen_no_sim.l0
+Writing file system_map.ngm...
+Running directed packing...
+WARNING:Pack:1542 - The register
+   SPI_FLASH/SPI_FLASH/I_SPI_MODULE/SPI_TRISTATE_CONTROL_IV has the property
+   IOB=TRUE, but was not packed into the output side of an I/O component. The
+   output register symbol
+   "SPI_FLASH/SPI_FLASH/I_SPI_MODULE/SPI_TRISTATE_CONTROL_IV" has loads outside
+   the I/O component.
+   The output register symbol
+   "SPI_FLASH/SPI_FLASH/I_SPI_MODULE/SPI_TRISTATE_CONTROL_IV" has loads outside
+   the I/O component.
+WARNING:Pack:1542 - The register
+   SPI_FLASH/SPI_FLASH/I_SPI_MODULE/SPI_TRISTATE_CONTROL_IV has the property
+   IOB=TRUE, but was not packed into the output side of an I/O component. The
+   output register symbol
+   "SPI_FLASH/SPI_FLASH/I_SPI_MODULE/SPI_TRISTATE_CONTROL_IV" has loads outside
+   the I/O component.
+   The output register symbol
+   "SPI_FLASH/SPI_FLASH/I_SPI_MODULE/SPI_TRISTATE_CONTROL_IV" has loads outside
+   the I/O component.
+WARNING:Pack:1542 - The register
+   SPI_FLASH/SPI_FLASH/I_SPI_MODULE/SPI_TRISTATE_CONTROL_IV has the property
+   IOB=TRUE, but was not packed into the output side of an I/O component. The
+   output register symbol
+   "SPI_FLASH/SPI_FLASH/I_SPI_MODULE/SPI_TRISTATE_CONTROL_IV" has loads outside
+   the I/O component.
+   The output register symbol
+   "SPI_FLASH/SPI_FLASH/I_SPI_MODULE/SPI_TRISTATE_CONTROL_IV" has loads outside
+   the I/O component.
+WARNING:Pack:1542 - The register
+   SPI_FLASH/SPI_FLASH/I_SPI_MODULE/SPI_TRISTATE_CONTROL_IV has the property
+   IOB=TRUE, but was not packed into the output side of an I/O component. The
+   output register symbol
+   "SPI_FLASH/SPI_FLASH/I_SPI_MODULE/SPI_TRISTATE_CONTROL_IV" has loads outside
+   the I/O component.
+   The output register symbol
+   "SPI_FLASH/SPI_FLASH/I_SPI_MODULE/SPI_TRISTATE_CONTROL_IV" has loads outside
+   the I/O component.
+WARNING:Pack:1542 - The register
+   SPI_FLASH/SPI_FLASH/I_SPI_MODULE/SPI_TRISTATE_CONTROL_IV has the property
+   IOB=TRUE, but was not packed into the output side of an I/O component. The
+   output register symbol
+   "SPI_FLASH/SPI_FLASH/I_SPI_MODULE/SPI_TRISTATE_CONTROL_IV" has loads outside
+   the I/O component.
+   The output register symbol
+   "SPI_FLASH/SPI_FLASH/I_SPI_MODULE/SPI_TRISTATE_CONTROL_IV" has loads outside
+   the I/O component.
+Running delay-based LUT packing...
+Updating timing models...
+Running timing-driven placement...
+Total REAL time at the beginning of Placer: 37 secs 
+Total CPU  time at the beginning of Placer: 33 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:fb2d5ad3) REAL time: 44 secs 
+
+Phase 2.7  Design Feasibility Check
+WARNING:Place:838 - An IO Bus with more than one IO standard is found.
+   Components associated with this bus are as follows: 
+   	 Comp: fpga_0_SPI_FLASH_SS_pin<4>   IOSTANDARD = LVCMOS33
+   	 Comp: fpga_0_SPI_FLASH_SS_pin<3>   IOSTANDARD = LVCMOS33
+   	 Comp: fpga_0_SPI_FLASH_SS_pin<2>   IOSTANDARD = LVCMOS33
+   	 Comp: fpga_0_SPI_FLASH_SS_pin<1>   IOSTANDARD = LVCMOS33
+   	 Comp: fpga_0_SPI_FLASH_SS_pin<0>   IOSTANDARD = LVCMOS25
+
+
+Phase 2.7  Design Feasibility Check (Checksum:fb2d5ad3) REAL time: 44 secs 
+
+Phase 3.31  Local Placement Optimization
+Phase 3.31  Local Placement Optimization (Checksum:b9257963) REAL time: 44 secs 
+
+Phase 4.2  Initial Clock and IO Placement
+
+
+
+Phase 4.2  Initial Clock and IO Placement (Checksum:7c2276b) REAL time: 51 secs 
+
+Phase 5.30  Global Clock Region Assignment
+Phase 5.30  Global Clock Region Assignment (Checksum:7c2276b) REAL time: 51 secs 
+
+Phase 6.36  Local Placement Optimization
+Phase 6.36  Local Placement Optimization (Checksum:7c2276b) REAL time: 51 secs 
+
+Phase 7.8  Global Placement
+....................
+.....................................................
+......................................
+...............................................................................................................
+.....................................
+................
+.......................................................................................................................................
+.................
+Phase 7.8  Global Placement (Checksum:7987e4a8) REAL time: 2 mins 20 secs 
+
+Phase 8.5  Local Placement Optimization
+Phase 8.5  Local Placement Optimization (Checksum:7987e4a8) REAL time: 2 mins 20 secs 
+
+Phase 9.18  Placement Optimization
+Phase 9.18  Placement Optimization (Checksum:d2ca3b99) REAL time: 4 mins 14 secs 
+
+Phase 10.5  Local Placement Optimization
+Phase 10.5  Local Placement Optimization (Checksum:d2ca3b99) REAL time: 4 mins 15 secs 
+
+Total REAL time to Placer completion: 4 mins 17 secs 
+Total CPU  time to Placer completion: 4 mins 7 secs 
+Running post-placement packing...
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dqs_delayed_col0<3> is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the
+   flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dqs_delayed_col0<2> is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the
+   flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dqs_delayed_col0<1> is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the
+   flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dqs_delayed_col0<0> is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the
+   flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dqs_delayed_col1<3> is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the
+   flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dqs_delayed_col1<2> is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the
+   flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dqs_delayed_col1<1> is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the
+   flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dqs_delayed_col1<0> is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the
+   flip-flop.
+WARNING:PhysDesignRules:367 - The signal <ilmb_LMB_ABus<10>> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal <ilmb_LMB_ABus<30>> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal <ilmb_LMB_ABus<31>> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal <ilmb_LMB_ABus<3>> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal <ilmb_LMB_ABus<4>> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal <ilmb_LMB_ABus<5>> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal <ilmb_LMB_ABus<6>> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal <ilmb_LMB_ABus<2>> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal <ilmb_LMB_ABus<15>> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal <ilmb_LMB_ABus<7>> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal <ilmb_LMB_ABus<12>> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal <ilmb_LMB_ABus<13>> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal <ilmb_LMB_ABus<1>> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal <ilmb_LMB_ABus<8>> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal <ilmb_LMB_ABus<9>> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal <ilmb_LMB_ABus<11>> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal <ilmb_LMB_ABus<14>> is incomplete. The signal does not drive any load pins in
+   the design.
+
+Design Summary
+--------------
+
+Design Summary:
+Number of errors:      0
+Number of warnings:  673
+Logic Utilization:
+  Number of Slice Flip Flops:         5,924 out of  33,280   17%
+  Number of 4 input LUTs:             6,787 out of  33,280   20%
+Logic Distribution:
+  Number of occupied Slices:          6,290 out of  16,640   37%
+    Number of Slices containing only related logic:   6,290 out of   6,290 100%
+    Number of Slices containing unrelated logic:          0 out of   6,290   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:       7,013 out of  33,280   21%
+    Number used as logic:             6,087
+    Number used as a route-thru:        226
+    Number used as 16x1 RAMs:             4
+    Number used for Dual Port RAMs:     588
+      (Two LUTs used per Dual Port RAM)
+    Number used as Shift registers:     108
+
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+  Number of bonded IOBs:                120 out of     519   23%
+    IOB Flip Flops:                      54
+    IOB Master Pads:                      6
+    IOB Slave Pads:                       6
+  Number of ODDR2s used:                 48
+    Number of DDR_ALIGNMENT = NONE       48
+    Number of DDR_ALIGNMENT = C0          0
+    Number of DDR_ALIGNMENT = C1          0
+  Number of BUFGMUXs:                     4 out of      24   16%
+  Number of DCMs:                         1 out of       8   12%
+  Number of BSCANs:                       1 out of       1  100%
+  Number of DSP48As:                      3 out of      84    3%
+  Number of RAMB16BWERs:                 40 out of      84   47%
+  Number of BSCAN_SPARTAN3As:             1 out of       1  100%
+
+  Number of RPM macros:            1
+Average Fanout of Non-Clock Nets:                3.50
+
+Peak Memory Usage:  935 MB
+Total REAL time to MAP completion:  4 mins 27 secs 
+Total CPU time to MAP completion:   4 mins 17 secs 
+
+Mapping completed.
+See MAP report file "system_map.mrp" for details.

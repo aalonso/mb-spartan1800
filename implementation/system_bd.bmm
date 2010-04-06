@@ -1,0 +1,60 @@
+// BMM LOC annotation file.
+//
+// Release 11.1 - Data2MEM L.70, build 1.6 Jun 5, 2009
+// Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// Processor 'microblaze_0', ID 100, memory map.
+//
+///////////////////////////////////////////////////////////////////////////////
+
+ADDRESS_MAP microblaze_0 MICROBLAZE 100
+
+
+    ///////////////////////////////////////////////////////////////////////////////
+    //
+    // Processor 'microblaze_0' address space 'lmb_bram_combined' 0x00000000:0x0000FFFF (64 KBytes).
+    //
+    ///////////////////////////////////////////////////////////////////////////////
+
+    ADDRESS_SPACE lmb_bram_combined RAMB16 [0x00000000:0x0000FFFF]
+        BUS_BLOCK
+            lmb_bram/lmb_bram/ramb16bwer_0 [31:31] PLACED = X1Y17;
+            lmb_bram/lmb_bram/ramb16bwer_1 [30:30] PLACED = X2Y20;
+            lmb_bram/lmb_bram/ramb16bwer_2 [29:29] PLACED = X1Y16;
+            lmb_bram/lmb_bram/ramb16bwer_3 [28:28] PLACED = X1Y15;
+            lmb_bram/lmb_bram/ramb16bwer_4 [27:27] PLACED = X2Y19;
+            lmb_bram/lmb_bram/ramb16bwer_5 [26:26] PLACED = X2Y16;
+            lmb_bram/lmb_bram/ramb16bwer_6 [25:25] PLACED = X1Y14;
+            lmb_bram/lmb_bram/ramb16bwer_7 [24:24] PLACED = X2Y21;
+            lmb_bram/lmb_bram/ramb16bwer_8 [23:23] PLACED = X3Y16;
+            lmb_bram/lmb_bram/ramb16bwer_9 [22:22] PLACED = X3Y17;
+            lmb_bram/lmb_bram/ramb16bwer_10 [21:21] PLACED = X3Y15;
+            lmb_bram/lmb_bram/ramb16bwer_11 [20:20] PLACED = X1Y13;
+            lmb_bram/lmb_bram/ramb16bwer_12 [19:19] PLACED = X2Y17;
+            lmb_bram/lmb_bram/ramb16bwer_13 [18:18] PLACED = X2Y15;
+            lmb_bram/lmb_bram/ramb16bwer_14 [17:17] PLACED = X3Y14;
+            lmb_bram/lmb_bram/ramb16bwer_15 [16:16] PLACED = X2Y14;
+            lmb_bram/lmb_bram/ramb16bwer_16 [15:15] PLACED = X3Y12;
+            lmb_bram/lmb_bram/ramb16bwer_17 [14:14] PLACED = X2Y11;
+            lmb_bram/lmb_bram/ramb16bwer_18 [13:13] PLACED = X3Y13;
+            lmb_bram/lmb_bram/ramb16bwer_19 [12:12] PLACED = X1Y12;
+            lmb_bram/lmb_bram/ramb16bwer_20 [11:11] PLACED = X2Y18;
+            lmb_bram/lmb_bram/ramb16bwer_21 [10:10] PLACED = X2Y12;
+            lmb_bram/lmb_bram/ramb16bwer_22 [9:9] PLACED = X1Y11;
+            lmb_bram/lmb_bram/ramb16bwer_23 [8:8] PLACED = X2Y10;
+            lmb_bram/lmb_bram/ramb16bwer_24 [7:7] PLACED = X3Y9;
+            lmb_bram/lmb_bram/ramb16bwer_25 [6:6] PLACED = X2Y9;
+            lmb_bram/lmb_bram/ramb16bwer_26 [5:5] PLACED = X2Y5;
+            lmb_bram/lmb_bram/ramb16bwer_27 [4:4] PLACED = X1Y10;
+            lmb_bram/lmb_bram/ramb16bwer_28 [3:3] PLACED = X2Y7;
+            lmb_bram/lmb_bram/ramb16bwer_29 [2:2] PLACED = X2Y8;
+            lmb_bram/lmb_bram/ramb16bwer_30 [1:1] PLACED = X2Y6;
+            lmb_bram/lmb_bram/ramb16bwer_31 [0:0] PLACED = X3Y8;
+        END_BUS_BLOCK;
+    END_ADDRESS_SPACE;
+
+END_ADDRESS_MAP;
+

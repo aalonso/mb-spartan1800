@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<document OS="lin64" product="ISE" version="11.5">
+
+  <!--The data in this file is primarily intended for consumption by Xilinx tools.
+    The structure and the elements are likely to change over the next few releases.
+    This means code written to parse this file will need to be revisited each subsequent release.-->
+
+  <application stringID="Xst" timeStamp="Mon Apr  5 20:45:41 2010">
+    <section stringID="User_Env">
+      <table stringID="User_EnvVar">
+        <column stringID="variable"/>
+        <column stringID="value"/>
+        <row stringID="row" value="0">
+          <item stringID="variable" value="XILINX_DSP"/>
+          <item stringID="value" value="/opt/Xilinx/11.5/DSP_Tools/lin64"/>
+        </row>
+        <row stringID="row" value="1">
+          <item stringID="variable" value="XILINX_EDK"/>
+          <item stringID="value" value="/opt/Xilinx/11.5/EDK"/>
+        </row>
+        <row stringID="row" value="2">
+          <item stringID="variable" value="XILINX_PLANAHEAD"/>
+          <item stringID="value" value="/opt/Xilinx/11.5/PlanAhead"/>
+        </row>
+        <row stringID="row" value="3">
+          <item stringID="variable" value="XILINX"/>
+          <item stringID="value" value="/opt/Xilinx/11.5/ISE:/opt/Xilinx/11.5/EDK"/>
+        </row>
+      </table>
+      <item stringID="User_EnvOs" value="OS Information">
+        <item stringID="User_EnvOsname" value="Fedora"/>
+        <item stringID="User_EnvOsrelease" value="Fedora release 12 (Constantine)"/>
+      </item>
+      <item stringID="User_EnvHost" value="aalonso-pc"/>
+      <table stringID="User_EnvCpu">
+        <column stringID="arch"/>
+        <column stringID="speed"/>
+        <row stringID="row" value="0">
+          <item stringID="arch" value="AMD Phenom(tm) 9750 Quad-Core Processor"/>
+          <item stringID="speed" value="1200.000 MHz"/>
+        </row>
+        <row stringID="row" value="1">
+          <item stringID="arch" value="AMD Phenom(tm) 9750 Quad-Core Processor"/>
+          <item stringID="speed" value="1200.000 MHz"/>
+        </row>
+        <row stringID="row" value="2">
+          <item stringID="arch" value="AMD Phenom(tm) 9750 Quad-Core Processor"/>
+          <item stringID="speed" value="1200.000 MHz"/>
+        </row>
+        <row stringID="row" value="3">
+          <item stringID="arch" value="AMD Phenom(tm) 9750 Quad-Core Processor"/>
+          <item stringID="speed" value="1200.000 MHz"/>
+        </row>
+      </table>
+    </section>
+    <section stringID="XST_HDL_SYNTHESIS_REPORT">
+      <item dataType="int" stringID="XST_ADDERSSUBTRACTORS" value="1"></item>
+      <item dataType="int" stringID="XST_COUNTERS" value="10"></item>
+      <item dataType="int" stringID="XST_REGISTERS" value="208">
+        <item dataType="int" stringID="XST_1BIT_REGISTER" value="186"/>
+        <item dataType="int" stringID="XST_10BIT_REGISTER" value="1"/>
+        <item dataType="int" stringID="XST_16BIT_REGISTER" value="3"/>
+        <item dataType="int" stringID="XST_2BIT_REGISTER" value="1"/>
+        <item dataType="int" stringID="XST_3BIT_REGISTER" value="1"/>
+        <item dataType="int" stringID="XST_32BIT_REGISTER" value="2"/>
+        <item dataType="int" stringID="XST_4BIT_REGISTER" value="6"/>
+        <item dataType="int" stringID="XST_5BIT_REGISTER" value="3"/>
+        <item dataType="int" stringID="XST_6BIT_REGISTER" value="2"/>
+        <item dataType="int" stringID="XST_8BIT_REGISTER" value="1"/>
+        <item dataType="int" stringID="XST_9BIT_REGISTER" value="1"/>
+      </item>
+      <item dataType="int" stringID="XST_COMPARATORS" value="3">
+        <item dataType="int" stringID="XST_4BIT_COMPARATOR_EQUAL" value="1"/>
+      </item>
+      <item dataType="int" stringID="XST_XORS" value="98">
+        <item dataType="int" stringID="XST_1BIT_XOR2" value="82"/>
+        <item dataType="int" stringID="XST_1BIT_XOR3" value="16"/>
+      </item>
+    </section>
+    <section stringID="XST_ADVANCED_HDL_SYNTHESIS_REPORT">
+      <item dataType="int" stringID="XST_FSMS" value="6"/>
+      <item dataType="int" stringID="XST_ADDERSSUBTRACTORS" value="1"></item>
+      <item dataType="int" stringID="XST_COUNTERS" value="10"></item>
+      <item dataType="int" stringID="XST_REGISTERS" value="567">
+        <item dataType="int" stringID="XST_FLIPFLOPS" value="567"/>
+      </item>
+      <item dataType="int" stringID="XST_COMPARATORS" value="3">
+        <item dataType="int" stringID="XST_4BIT_COMPARATOR_EQUAL" value="1"/>
+      </item>
+      <item dataType="int" stringID="XST_XORS" value="98">
+        <item dataType="int" stringID="XST_1BIT_XOR2" value="82"/>
+        <item dataType="int" stringID="XST_1BIT_XOR3" value="16"/>
+      </item>
+    </section>
+    <section stringID="XST_FINAL_REGISTER_REPORT">
+      <item dataType="int" stringID="XST_REGISTERS" value="634">
+        <item dataType="int" stringID="XST_FLIPFLOPS" value="634"/>
+      </item>
+    </section>
+    <section stringID="XST_PARTITION_REPORT">
+      <section stringID="XST_PARTITION_IMPLEMENTATION_STATUS">
+        <section stringID="XST_NO_PARTITIONS_WERE_FOUND_IN_THIS_DESIGN"/>
+      </section>
+    </section>
+    <section stringID="XST_FINAL_REPORT">
+      <section stringID="XST_FINAL_RESULTS">
+        <item stringID="XST_TOP_LEVEL_OUTPUT_FILE_NAME" value="../implementation/ethernet_mac_wrapper.ngc"/>
+        <item stringID="XST_OUTPUT_FORMAT" value="ngc"/>
+        <item stringID="XST_OPTIMIZATION_GOAL" value="speed"/>
+        <item stringID="XST_KEEP_HIERARCHY" value="no"/>
+      </section>
+      <section stringID="XST_DESIGN_STATISTICS">
+        <item stringID="XST_IOS" value="290"/>
+      </section>
+      <section stringID="XST_CELL_USAGE">
+        <item dataType="int" stringID="XST_BELS" value="1371">
+          <item dataType="int" stringID="XST_GND" value="3"/>
+          <item dataType="int" stringID="XST_INV" value="11"/>
+          <item dataType="int" stringID="XST_LUT1" value="24"/>
+          <item dataType="int" stringID="XST_LUT2" value="118"/>
+          <item dataType="int" stringID="XST_LUT2D" value="5"/>
+          <item dataType="int" stringID="XST_LUT2L" value="4"/>
+          <item dataType="int" stringID="XST_LUT3" value="177"/>
+          <item dataType="int" stringID="XST_LUT3D" value="11"/>
+          <item dataType="int" stringID="XST_LUT3L" value="7"/>
+          <item dataType="int" stringID="XST_LUT4" value="578"/>
+          <item dataType="int" stringID="XST_LUT4D" value="17"/>
+          <item dataType="int" stringID="XST_LUT4L" value="14"/>
+          <item dataType="int" stringID="XST_MULTAND" value="28"/>
+          <item dataType="int" stringID="XST_MUXCY" value="159"/>
+          <item dataType="int" stringID="XST_MUXF5" value="44"/>
+          <item dataType="int" stringID="XST_VCC" value="3"/>
+          <item dataType="int" stringID="XST_XORCY" value="140"/>
+        </item>
+        <item dataType="int" stringID="XST_FLIPFLOPSLATCHES" value="724">
+          <item dataType="int" stringID="XST_FD" value="1"/>
+          <item dataType="int" stringID="XST_FDCE" value="44"/>
+          <item dataType="int" stringID="XST_FDE" value="24"/>
+          <item dataType="int" stringID="XST_FDPE" value="22"/>
+          <item dataType="int" stringID="XST_FDR" value="228"/>
+          <item dataType="int" stringID="XST_FDRE" value="292"/>
+          <item dataType="int" stringID="XST_FDRS" value="27"/>
+          <item dataType="int" stringID="XST_FDS" value="15"/>
+          <item dataType="int" stringID="XST_FDSE" value="51"/>
+        </item>
+        <item dataType="int" stringID="XST_RAMS" value="18">
+          <item dataType="int" stringID="XST_RAM16X1D" value="12"/>
+        </item>
+      </section>
+    </section>
+    <section stringID="XST_DEVICE_UTILIZATION_SUMMARY">
+      <item stringID="XST_SELECTED_DEVICE" value="3sd1800afg676-4"/>
+      <item AVAILABLE="16640" dataType="int" label="Number of Slices" stringID="XST_NUMBER_OF_SLICES" value="617"/>
+      <item AVAILABLE="33280" dataType="int" label="Number of Slice Flip Flops" stringID="XST_NUMBER_OF_SLICE_FLIP_FLOPS" value="713"/>
+      <item AVAILABLE="33280" dataType="int" label="Number of 4 input LUTs" stringID="XST_NUMBER_OF_4_INPUT_LUTS" value="994"/>
+      <item dataType="int" label="Number used as Logic" stringID="XST_NUMBER_USED_AS_LOGIC" value="966"/>
+      <item dataType="int" stringID="XST_NUMBER_USED_AS_RAMS" value="28"/>
+      <item dataType="int" label="Number of IOs" stringID="XST_NUMBER_OF_IOS" value="290"/>
+      <item AVAILABLE="519" dataType="int" label="Number of bonded IOBs" stringID="XST_NUMBER_OF_BONDED_IOBS" value="0"/>
+      <item AVAILABLE="84" dataType="int" stringID="XST_NUMBER_OF_BRAMS" value="2"/>
+    </section>
+    <section stringID="XST_PARTITION_RESOURCE_SUMMARY">
+      <section stringID="XST_NO_PARTITIONS_WERE_FOUND_IN_THIS_DESIGN"/>
+    </section>
+    <section stringID="XST_ERRORS_STATISTICS">
+      <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_ERRORS" value="0"/>
+      <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_WARNINGS" value="425"/>
+      <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_INFOS" value="46"/>
+    </section>
+  </application>
+
+</document>

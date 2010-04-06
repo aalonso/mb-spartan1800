@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<document OS="lin64" product="ISE" version="11.5">
+
+  <!--The data in this file is primarily intended for consumption by Xilinx tools.
+    The structure and the elements are likely to change over the next few releases.
+    This means code written to parse this file will need to be revisited each subsequent release.-->
+
+  <application stringID="NgdBuild" timeStamp="Mon Apr  5 20:53:28 2010">
+    <section stringID="User_Env">
+      <table stringID="User_EnvVar">
+        <column stringID="variable"/>
+        <column stringID="value"/>
+        <row stringID="row" value="0">
+          <item stringID="variable" value="XILINX_DSP"/>
+          <item stringID="value" value="/opt/Xilinx/11.5/DSP_Tools/lin64"/>
+        </row>
+        <row stringID="row" value="1">
+          <item stringID="variable" value="XILINX_EDK"/>
+          <item stringID="value" value="/opt/Xilinx/11.5/EDK"/>
+        </row>
+        <row stringID="row" value="2">
+          <item stringID="variable" value="XILINX_PLANAHEAD"/>
+          <item stringID="value" value="/opt/Xilinx/11.5/PlanAhead"/>
+        </row>
+        <row stringID="row" value="3">
+          <item stringID="variable" value="XILINX"/>
+          <item stringID="value" value="/opt/Xilinx/11.5/ISE:/opt/Xilinx/11.5/EDK"/>
+        </row>
+      </table>
+      <item stringID="User_EnvOs" value="OS Information">
+        <item stringID="User_EnvOsname" value="Fedora"/>
+        <item stringID="User_EnvOsrelease" value="Fedora release 12 (Constantine)"/>
+      </item>
+      <item stringID="User_EnvHost" value="aalonso-pc"/>
+      <table stringID="User_EnvCpu">
+        <column stringID="arch"/>
+        <column stringID="speed"/>
+        <row stringID="row" value="0">
+          <item stringID="arch" value="AMD Phenom(tm) 9750 Quad-Core Processor"/>
+          <item stringID="speed" value="1200.000 MHz"/>
+        </row>
+        <row stringID="row" value="1">
+          <item stringID="arch" value="AMD Phenom(tm) 9750 Quad-Core Processor"/>
+          <item stringID="speed" value="1200.000 MHz"/>
+        </row>
+        <row stringID="row" value="2">
+          <item stringID="arch" value="AMD Phenom(tm) 9750 Quad-Core Processor"/>
+          <item stringID="speed" value="1200.000 MHz"/>
+        </row>
+        <row stringID="row" value="3">
+          <item stringID="arch" value="AMD Phenom(tm) 9750 Quad-Core Processor"/>
+          <item stringID="speed" value="1200.000 MHz"/>
+        </row>
+      </table>
+    </section>
+    <task stringID="NGDBUILD_REPORT">
+      <section stringID="NGDBUILD_DESIGN_SUMMARY">
+        <item dataType="int" stringID="NGDBUILD_NUM_ERRORS" value="0"/>
+        <item dataType="int" stringID="NGDBUILD_FILTERED_WARNINGS" value="0"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_WARNINGS" value="189"/>
+        <item dataType="int" stringID="NGDBUILD_FILTERED_INFOS" value="0"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_INFOS" value="3"/>
+      </section>
+      <section stringID="NGDBUILD_CORE_SUMMARY">
+        <item COUNT="1" stringID="NGDBUILD_CORE" value="microblaze_v7_20_d"/>
+        <section stringID="NGDBUILD_CORE_GENERATION_SUMMARY">
+          <section stringID="NGDBUILD_CORE_INSTANCES">
+            <scope stringID="NGDBUILD_CORE_INSTANCE" value="microblaze_0">
+              <item stringID="NGDBUILD_CORE_INFO" type="MicroBlaze" value="microblaze_0"/>
+              <item c_area_optimized="0" c_cache_byte_size="8192" c_d_lmb="1" c_d_opb="0" c_d_plb="1" c_dcache_always_used="0" c_dcache_baseaddr="0x00000000" c_dcache_byte_size="8192" c_dcache_highaddr="0x3FFFFFFF" c_dcache_line_len="4" c_dcache_use_writeback="0" c_debug_enabled="1" c_div_zero_exception="0" c_dopb_bus_exception="0" c_dplb_bus_exception="0" c_family="spartan3adsp" c_fpu_exception="0" c_fsl_exception="0" c_fsl_links="0" c_i_lmb="1" c_i_opb="0" c_i_plb="1" c_icache_always_used="0" c_icache_baseaddr="0x00000000" c_icache_highaddr="0x3FFFFFFF" c_icache_line_len="4" c_ill_opcode_exception="0" c_instance="microblaze_0" c_interconnect="1" c_iopb_bus_exception="0" c_iplb_bus_exception="0" c_mmu_dtlb_size="4" c_mmu_itlb_size="2" c_mmu_tlb_access="3" c_mmu_zones="16" c_number_of_pc_brk="1" c_number_of_rd_addr_brk="0" c_number_of_wr_addr_brk="0" c_opcode_0x0_illegal="0" c_pvr="0" c_unaligned_exceptions="0" c_use_barrel="0" c_use_dcache="0" c_use_div="0" c_use_ext_brk="1" c_use_ext_nm_brk="1" c_use_extended_fsl_instr="0" c_use_fpu="0" c_use_hw_mul="1" c_use_icache="0" c_use_interrupt="1" c_use_mmu="3" c_use_msr_instr="1" c_use_pcmp_instr="1" mb_version="0x0F" stringID="NGDBUILD_CORE_PARAMETERS" value="microblaze_0"/>
+            </scope>
+          </section>
+        </section>
+      </section>
+    </task>
+  </application>
+
+</document>

@@ -1,0 +1,940 @@
+Release 11.5 ngdbuild L.70 (lin64)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+
+Command Line: /opt/Xilinx/11.5/ISE/bin/lin64/unwrapped/ngdbuild -ise
+../__xps/ise/system.ise -p xc3sd1800afg676-4 -nt timestamp -bm system.bmm
+/home/aalonso/workspace/microblaze/mb-spartan1800/implementation/system.ngc -uc
+system.ucf system.ngd
+
+Reading NGO file
+"/home/aalonso/workspace/microblaze/mb-spartan1800/implementation/system.ngc"
+...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "system.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+INFO:ConstraintSystem:178 - TNM 'sys_clk_pin', used in period specification
+   'TS_sys_clk_pin', was traced into DCM_SP instance DCM_SP. The following new
+   TNM groups and period specifications were generated at the DCM_SP output(s): 
+   CLK0: <TIMESPEC
+   TS_clock_generator_0_clock_generator_0_Using_DCM0_DCM0_INST_CLK0_DCM = PERIOD
+   "clock_generator_0_clock_generator_0_Using_DCM0_DCM0_INST_CLK0_DCM"
+   TS_sys_clk_pin HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'sys_clk_pin', used in period specification
+   'TS_sys_clk_pin', was traced into DCM_SP instance DCM_SP. The following new
+   TNM groups and period specifications were generated at the DCM_SP output(s): 
+   CLK90: <TIMESPEC
+   TS_clock_generator_0_clock_generator_0_Using_DCM0_DCM0_INST_CLK90_DCM =
+   PERIOD "clock_generator_0_clock_generator_0_Using_DCM0_DCM0_INST_CLK90_DCM"
+   TS_sys_clk_pin PHASE 2 ns HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'sys_clk_pin', used in period specification
+   'TS_sys_clk_pin', was traced into DCM_SP instance DCM_SP. The following new
+   TNM groups and period specifications were generated at the DCM_SP output(s): 
+   CLKDV: <TIMESPEC
+   TS_clock_generator_0_clock_generator_0_Using_DCM0_DCM0_INST_CLKDV_DCM =
+   PERIOD "clock_generator_0_clock_generator_0_Using_DCM0_DCM0_INST_CLKDV_DCM"
+   TS_sys_clk_pin / 2 HIGH 50%>
+
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/dqs_div\/dqs_rst_iob IOB = FORCE> is overridden on the design
+   object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/dqs_div/dqs_r
+   st_iob by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/dqs_div/dqs_rst_iob" IOB = TRUE;>
+   [system.ucf(381)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/dqs_div\/dqs_rst_iob IOB = FORCE> is overridden on the design
+   object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/dqs_div/dqs_r
+   st_iob by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/dqs_div/dqs_rst_iob"           IOB =
+   TRUE;> [system.ucf(418)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/controller_iobs\/gen_cke[0].cke_iob IOB = FORCE> is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/controll
+   er_iobs/gen_cke[0].cke_iob by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/controller_iobs/gen_cke[*].cke_
+   iob"    IOB = TRUE;> [system.ucf(424)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/controller_iobs\/gen_ba[1].ba_iob IOB = FORCE> is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/controll
+   er_iobs/gen_ba[1].ba_iob by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/controller_iobs/gen_ba[*].ba_io
+   b"    IOB = TRUE;> [system.ucf(420)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/controller_iobs\/gen_ba[0].ba_iob IOB = FORCE> is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/controll
+   er_iobs/gen_ba[0].ba_iob by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/controller_iobs/gen_ba[*].ba_io
+   b"    IOB = TRUE;> [system.ucf(420)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/controller_iobs\/gen_addr[12].addr_iob IOB = FORCE> is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/controll
+   er_iobs/gen_addr[12].addr_iob by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/controller_iobs/gen_addr[*].add
+   r_iob"  IOB = TRUE;> [system.ucf(419)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/controller_iobs\/gen_addr[11].addr_iob IOB = FORCE> is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/controll
+   er_iobs/gen_addr[11].addr_iob by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/controller_iobs/gen_addr[*].add
+   r_iob"  IOB = TRUE;> [system.ucf(419)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/controller_iobs\/gen_addr[10].addr_iob IOB = FORCE> is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/controll
+   er_iobs/gen_addr[10].addr_iob by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/controller_iobs/gen_addr[*].add
+   r_iob"  IOB = TRUE;> [system.ucf(419)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/controller_iobs\/gen_addr[9].addr_iob IOB = FORCE> is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/controll
+   er_iobs/gen_addr[9].addr_iob by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/controller_iobs/gen_addr[*].add
+   r_iob"  IOB = TRUE;> [system.ucf(419)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/controller_iobs\/gen_addr[8].addr_iob IOB = FORCE> is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/controll
+   er_iobs/gen_addr[8].addr_iob by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/controller_iobs/gen_addr[*].add
+   r_iob"  IOB = TRUE;> [system.ucf(419)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/controller_iobs\/gen_addr[7].addr_iob IOB = FORCE> is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/controll
+   er_iobs/gen_addr[7].addr_iob by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/controller_iobs/gen_addr[*].add
+   r_iob"  IOB = TRUE;> [system.ucf(419)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/controller_iobs\/gen_addr[6].addr_iob IOB = FORCE> is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/controll
+   er_iobs/gen_addr[6].addr_iob by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/controller_iobs/gen_addr[*].add
+   r_iob"  IOB = TRUE;> [system.ucf(419)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/controller_iobs\/gen_addr[5].addr_iob IOB = FORCE> is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/controll
+   er_iobs/gen_addr[5].addr_iob by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/controller_iobs/gen_addr[*].add
+   r_iob"  IOB = TRUE;> [system.ucf(419)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/controller_iobs\/gen_addr[4].addr_iob IOB = FORCE> is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/controll
+   er_iobs/gen_addr[4].addr_iob by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/controller_iobs/gen_addr[*].add
+   r_iob"  IOB = TRUE;> [system.ucf(419)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/controller_iobs\/gen_addr[3].addr_iob IOB = FORCE> is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/controll
+   er_iobs/gen_addr[3].addr_iob by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/controller_iobs/gen_addr[*].add
+   r_iob"  IOB = TRUE;> [system.ucf(419)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/controller_iobs\/gen_addr[2].addr_iob IOB = FORCE> is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/controll
+   er_iobs/gen_addr[2].addr_iob by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/controller_iobs/gen_addr[*].add
+   r_iob"  IOB = TRUE;> [system.ucf(419)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/controller_iobs\/gen_addr[1].addr_iob IOB = FORCE> is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/controll
+   er_iobs/gen_addr[1].addr_iob by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/controller_iobs/gen_addr[*].add
+   r_iob"  IOB = TRUE;> [system.ucf(419)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/controller_iobs\/gen_addr[0].addr_iob IOB = FORCE> is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/controll
+   er_iobs/gen_addr[0].addr_iob by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/controller_iobs/gen_addr[*].add
+   r_iob"  IOB = TRUE;> [system.ucf(419)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/controller_iobs\/cas_iob IOB = FORCE> is overridden on
+   the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/controll
+   er_iobs/cas_iob by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/controller_iobs/cas_iob"   IOB
+   = TRUE;> [system.ucf(422)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/controller_iobs\/ras_iob IOB = FORCE> is overridden on
+   the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/controll
+   er_iobs/ras_iob by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/controller_iobs/ras_iob"   IOB
+   = TRUE;> [system.ucf(421)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/controller_iobs\/we_iob IOB = FORCE> is overridden on the
+   design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/controll
+   er_iobs/we_iob by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/controller_iobs/we_iob"    IOB
+   = TRUE;> [system.ucf(423)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/datapath_iobs\/gen_dq[0].dq_iob\/DQ_T IOB = FORCE> is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/datapath
+   _iobs/gen_dq[0].dq_iob/DQ_T by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/datapath_iobs/gen_dq[*].dq_iob*
+   "  IOB = TRUE;> [system.ucf(417)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/datapath_iobs\/gen_dq[1].dq_iob\/DQ_T IOB = FORCE> is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/datapath
+   _iobs/gen_dq[1].dq_iob/DQ_T by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/datapath_iobs/gen_dq[*].dq_iob*
+   "  IOB = TRUE;> [system.ucf(417)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/datapath_iobs\/gen_dq[2].dq_iob\/DQ_T IOB = FORCE> is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/datapath
+   _iobs/gen_dq[2].dq_iob/DQ_T by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/datapath_iobs/gen_dq[*].dq_iob*
+   "  IOB = TRUE;> [system.ucf(417)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/datapath_iobs\/gen_dq[3].dq_iob\/DQ_T IOB = FORCE> is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/datapath
+   _iobs/gen_dq[3].dq_iob/DQ_T by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/datapath_iobs/gen_dq[*].dq_iob*
+   "  IOB = TRUE;> [system.ucf(417)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/datapath_iobs\/gen_dq[4].dq_iob\/DQ_T IOB = FORCE> is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/datapath
+   _iobs/gen_dq[4].dq_iob/DQ_T by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/datapath_iobs/gen_dq[*].dq_iob*
+   "  IOB = TRUE;> [system.ucf(417)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/datapath_iobs\/gen_dq[5].dq_iob\/DQ_T IOB = FORCE> is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/datapath
+   _iobs/gen_dq[5].dq_iob/DQ_T by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/datapath_iobs/gen_dq[*].dq_iob*
+   "  IOB = TRUE;> [system.ucf(417)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/datapath_iobs\/gen_dq[6].dq_iob\/DQ_T IOB = FORCE> is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/datapath
+   _iobs/gen_dq[6].dq_iob/DQ_T by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/datapath_iobs/gen_dq[*].dq_iob*
+   "  IOB = TRUE;> [system.ucf(417)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/datapath_iobs\/gen_dq[7].dq_iob\/DQ_T IOB = FORCE> is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/datapath
+   _iobs/gen_dq[7].dq_iob/DQ_T by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/datapath_iobs/gen_dq[*].dq_iob*
+   "  IOB = TRUE;> [system.ucf(417)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/datapath_iobs\/gen_dq[8].dq_iob\/DQ_T IOB = FORCE> is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/datapath
+   _iobs/gen_dq[8].dq_iob/DQ_T by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/datapath_iobs/gen_dq[*].dq_iob*
+   "  IOB = TRUE;> [system.ucf(417)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/datapath_iobs\/gen_dq[9].dq_iob\/DQ_T IOB = FORCE> is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/datapath
+   _iobs/gen_dq[9].dq_iob/DQ_T by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/datapath_iobs/gen_dq[*].dq_iob*
+   "  IOB = TRUE;> [system.ucf(417)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/datapath_iobs\/gen_dq[10].dq_iob\/DQ_T IOB = FORCE> is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/datapath
+   _iobs/gen_dq[10].dq_iob/DQ_T by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/datapath_iobs/gen_dq[*].dq_iob*
+   "  IOB = TRUE;> [system.ucf(417)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/datapath_iobs\/gen_dq[11].dq_iob\/DQ_T IOB = FORCE> is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/datapath
+   _iobs/gen_dq[11].dq_iob/DQ_T by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/datapath_iobs/gen_dq[*].dq_iob*
+   "  IOB = TRUE;> [system.ucf(417)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/datapath_iobs\/gen_dq[12].dq_iob\/DQ_T IOB = FORCE> is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/datapath
+   _iobs/gen_dq[12].dq_iob/DQ_T by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/datapath_iobs/gen_dq[*].dq_iob*
+   "  IOB = TRUE;> [system.ucf(417)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/datapath_iobs\/gen_dq[13].dq_iob\/DQ_T IOB = FORCE> is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/datapath
+   _iobs/gen_dq[13].dq_iob/DQ_T by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/datapath_iobs/gen_dq[*].dq_iob*
+   "  IOB = TRUE;> [system.ucf(417)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/datapath_iobs\/gen_dq[14].dq_iob\/DQ_T IOB = FORCE> is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/datapath
+   _iobs/gen_dq[14].dq_iob/DQ_T by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/datapath_iobs/gen_dq[*].dq_iob*
+   "  IOB = TRUE;> [system.ucf(417)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/datapath_iobs\/gen_dq[15].dq_iob\/DQ_T IOB = FORCE> is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/datapath
+   _iobs/gen_dq[15].dq_iob/DQ_T by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/datapath_iobs/gen_dq[*].dq_iob*
+   "  IOB = TRUE;> [system.ucf(417)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/datapath_iobs\/gen_dq[16].dq_iob\/DQ_T IOB = FORCE> is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/datapath
+   _iobs/gen_dq[16].dq_iob/DQ_T by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/datapath_iobs/gen_dq[*].dq_iob*
+   "  IOB = TRUE;> [system.ucf(417)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/datapath_iobs\/gen_dq[17].dq_iob\/DQ_T IOB = FORCE> is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/datapath
+   _iobs/gen_dq[17].dq_iob/DQ_T by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/datapath_iobs/gen_dq[*].dq_iob*
+   "  IOB = TRUE;> [system.ucf(417)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/datapath_iobs\/gen_dq[18].dq_iob\/DQ_T IOB = FORCE> is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/datapath
+   _iobs/gen_dq[18].dq_iob/DQ_T by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/datapath_iobs/gen_dq[*].dq_iob*
+   "  IOB = TRUE;> [system.ucf(417)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/datapath_iobs\/gen_dq[19].dq_iob\/DQ_T IOB = FORCE> is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/datapath
+   _iobs/gen_dq[19].dq_iob/DQ_T by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/datapath_iobs/gen_dq[*].dq_iob*
+   "  IOB = TRUE;> [system.ucf(417)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/datapath_iobs\/gen_dq[20].dq_iob\/DQ_T IOB = FORCE> is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/datapath
+   _iobs/gen_dq[20].dq_iob/DQ_T by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/datapath_iobs/gen_dq[*].dq_iob*
+   "  IOB = TRUE;> [system.ucf(417)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/datapath_iobs\/gen_dq[21].dq_iob\/DQ_T IOB = FORCE> is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/datapath
+   _iobs/gen_dq[21].dq_iob/DQ_T by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/datapath_iobs/gen_dq[*].dq_iob*
+   "  IOB = TRUE;> [system.ucf(417)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/datapath_iobs\/gen_dq[22].dq_iob\/DQ_T IOB = FORCE> is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/datapath
+   _iobs/gen_dq[22].dq_iob/DQ_T by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/datapath_iobs/gen_dq[*].dq_iob*
+   "  IOB = TRUE;> [system.ucf(417)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/datapath_iobs\/gen_dq[23].dq_iob\/DQ_T IOB = FORCE> is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/datapath
+   _iobs/gen_dq[23].dq_iob/DQ_T by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/datapath_iobs/gen_dq[*].dq_iob*
+   "  IOB = TRUE;> [system.ucf(417)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/datapath_iobs\/gen_dq[24].dq_iob\/DQ_T IOB = FORCE> is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/datapath
+   _iobs/gen_dq[24].dq_iob/DQ_T by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/datapath_iobs/gen_dq[*].dq_iob*
+   "  IOB = TRUE;> [system.ucf(417)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/datapath_iobs\/gen_dq[25].dq_iob\/DQ_T IOB = FORCE> is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/datapath
+   _iobs/gen_dq[25].dq_iob/DQ_T by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/datapath_iobs/gen_dq[*].dq_iob*
+   "  IOB = TRUE;> [system.ucf(417)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/datapath_iobs\/gen_dq[26].dq_iob\/DQ_T IOB = FORCE> is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/datapath
+   _iobs/gen_dq[26].dq_iob/DQ_T by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/datapath_iobs/gen_dq[*].dq_iob*
+   "  IOB = TRUE;> [system.ucf(417)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/datapath_iobs\/gen_dq[27].dq_iob\/DQ_T IOB = FORCE> is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/datapath
+   _iobs/gen_dq[27].dq_iob/DQ_T by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/datapath_iobs/gen_dq[*].dq_iob*
+   "  IOB = TRUE;> [system.ucf(417)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/datapath_iobs\/gen_dq[28].dq_iob\/DQ_T IOB = FORCE> is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/datapath
+   _iobs/gen_dq[28].dq_iob/DQ_T by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/datapath_iobs/gen_dq[*].dq_iob*
+   "  IOB = TRUE;> [system.ucf(417)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/datapath_iobs\/gen_dq[29].dq_iob\/DQ_T IOB = FORCE> is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/datapath
+   _iobs/gen_dq[29].dq_iob/DQ_T by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/datapath_iobs/gen_dq[*].dq_iob*
+   "  IOB = TRUE;> [system.ucf(417)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/datapath_iobs\/gen_dq[30].dq_iob\/DQ_T IOB = FORCE> is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/datapath
+   _iobs/gen_dq[30].dq_iob/DQ_T by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/datapath_iobs/gen_dq[*].dq_iob*
+   "  IOB = TRUE;> [system.ucf(417)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/datapath_iobs\/gen_dq[31].dq_iob\/DQ_T IOB = FORCE> is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/datapath
+   _iobs/gen_dq[31].dq_iob/DQ_T by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/datapath_iobs/gen_dq[*].dq_iob*
+   "  IOB = TRUE;> [system.ucf(417)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/datapath_iobs\/gen_dqs[0].dqs_iob\/dqs_en_reg IOB =
+   FORCE> is overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/datapath
+   _iobs/gen_dqs[0].dqs_iob/dqs_en_reg by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/datapath_iobs/gen_dqs[*].dqs_io
+   b*"  IOB = TRUE;> [system.ucf(416)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/datapath_iobs\/gen_dqs[1].dqs_iob\/dqs_en_reg IOB =
+   FORCE> is overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/datapath
+   _iobs/gen_dqs[1].dqs_iob/dqs_en_reg by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/datapath_iobs/gen_dqs[*].dqs_io
+   b*"  IOB = TRUE;> [system.ucf(416)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/datapath_iobs\/gen_dqs[2].dqs_iob\/dqs_en_reg IOB =
+   FORCE> is overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/datapath
+   _iobs/gen_dqs[2].dqs_iob/dqs_en_reg by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/datapath_iobs/gen_dqs[*].dqs_io
+   b*"  IOB = TRUE;> [system.ucf(416)].
+WARNING:NgdBuild:1012 - The constraint <INST: UniqueName:
+   /system/EXPANDED/system/DDR2_SDRAM/DDR2_SDRAM\/mpmc_core_0\/gen_s3_ddr2_phy.m
+   pmc_phy_if_0\/iobs\/datapath_iobs\/gen_dqs[3].dqs_iob\/dqs_en_reg IOB =
+   FORCE> is overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/datapath
+   _iobs/gen_dqs[3].dqs_iob/dqs_en_reg by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/datapath_iobs/gen_dqs[*].dqs_io
+   b*"  IOB = TRUE;> [system.ucf(416)].
+WARNING:NgdBuild:1012 - The constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/dqs_div/dqs_rst_iob" IOB = TRUE;>
+   [system.ucf(381)] is overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/dqs_div/dqs_r
+   st_iob by the constraint <INST
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/dqs_div/dqs_rst_iob"           IOB =
+   TRUE;> [system.ucf(418)].
+WARNING:NgdBuild:1012 - The constraint <NET
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/dqs_int_delay_in*" 	MAXDELAY =
+   661ps;> [system.ucf(389)] is overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/dqs_int_delay
+   _in<3> by the constraint <NET 
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/dqs_int_delay_in*"  MAXDELAY =
+   700ps;> [system.ucf(437)].
+WARNING:NgdBuild:1012 - The constraint <NET
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/dqs_int_delay_in*" 	MAXDELAY =
+   661ps;> [system.ucf(389)] is overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/dqs_int_delay
+   _in<2> by the constraint <NET 
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/dqs_int_delay_in*"  MAXDELAY =
+   700ps;> [system.ucf(437)].
+WARNING:NgdBuild:1012 - The constraint <NET
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/dqs_int_delay_in*" 	MAXDELAY =
+   661ps;> [system.ucf(389)] is overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/dqs_int_delay
+   _in<1> by the constraint <NET 
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/dqs_int_delay_in*"  MAXDELAY =
+   700ps;> [system.ucf(437)].
+WARNING:NgdBuild:1012 - The constraint <NET
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/dqs_int_delay_in*" 	MAXDELAY =
+   661ps;> [system.ucf(389)] is overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/dqs_int_delay
+   _in<0> by the constraint <NET 
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/dqs_int_delay_in*"  MAXDELAY =
+   700ps;> [system.ucf(437)].
+WARNING:NgdBuild:1012 - The constraint <NET
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller*rst_d
+   qs_div_delayed*/delay*"        MAXDELAY = 200ps;> [system.ucf(395)] is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read_controller/.rst_dqs_div_delayed/delay2 by the constraint <NET 
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller*rst_d
+   qs_div_delayed*"         MAXDELAY = 3000ps;> [system.ucf(435)].
+WARNING:NgdBuild:1012 - The constraint <NET
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller*rst_d
+   qs_div_delayed*/delay*"        MAXDELAY = 200ps;> [system.ucf(395)] is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read_controller/.rst_dqs_div_delayed/delay3 by the constraint <NET 
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller*rst_d
+   qs_div_delayed*"         MAXDELAY = 3000ps;> [system.ucf(435)].
+WARNING:NgdBuild:1012 - The constraint <NET
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller*rst_d
+   qs_div_delayed*/delay*"        MAXDELAY = 200ps;> [system.ucf(395)] is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read_controller/.rst_dqs_div_delayed/delay4 by the constraint <NET 
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller*rst_d
+   qs_div_delayed*"         MAXDELAY = 3000ps;> [system.ucf(435)].
+WARNING:NgdBuild:1012 - The constraint <NET
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller*rst_d
+   qs_div_delayed*/delay*"        MAXDELAY = 200ps;> [system.ucf(395)] is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read_controller/.rst_dqs_div_delayed/delay5 by the constraint <NET 
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller*rst_d
+   qs_div_delayed*"         MAXDELAY = 3000ps;> [system.ucf(435)].
+WARNING:NgdBuild:1012 - The constraint <NET
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller*rst_d
+   qs_div_delayed*/delay*"        MAXDELAY = 200ps;> [system.ucf(395)] is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read_controller/.rst_dqs_div_delayed/delay1 by the constraint <NET 
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller*rst_d
+   qs_div_delayed*"         MAXDELAY = 3000ps;> [system.ucf(435)].
+WARNING:NgdBuild:1012 - The constraint <NET
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/rst_d
+   qs_div"            		MAXDELAY = 3007ps;> [system.ucf(398)] is overridden on
+   the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dat
+   a_read_controller/rst_dqs_div by the constraint <NET 
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/rst_d
+   qs_div"        MAXDELAY = 3000ps;> [system.ucf(434)].
+WARNING:NgdBuild:1012 - The constraint <NET 
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/fifo*_wr_en<*>"           
+                                MAXDELAY = 3007ps;> [system.ucf(399)] is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/fif
+   o_1_wr_en<3> by the constraint <NET 
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/fifo*_wr_en<*>"           
+     MAXDELAY = 2000ps;> [system.ucf(436)].
+WARNING:NgdBuild:1012 - The constraint <NET 
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/fifo*_wr_en<*>"           
+                                MAXDELAY = 3007ps;> [system.ucf(399)] is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/fif
+   o_0_wr_en<3> by the constraint <NET 
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/fifo*_wr_en<*>"           
+     MAXDELAY = 2000ps;> [system.ucf(436)].
+WARNING:NgdBuild:1012 - The constraint <NET 
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/fifo*_wr_en<*>"           
+                                MAXDELAY = 3007ps;> [system.ucf(399)] is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/fif
+   o_1_wr_en<2> by the constraint <NET 
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/fifo*_wr_en<*>"           
+     MAXDELAY = 2000ps;> [system.ucf(436)].
+WARNING:NgdBuild:1012 - The constraint <NET 
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/fifo*_wr_en<*>"           
+                                MAXDELAY = 3007ps;> [system.ucf(399)] is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/fif
+   o_0_wr_en<2> by the constraint <NET 
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/fifo*_wr_en<*>"           
+     MAXDELAY = 2000ps;> [system.ucf(436)].
+WARNING:NgdBuild:1012 - The constraint <NET 
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/fifo*_wr_en<*>"           
+                                MAXDELAY = 3007ps;> [system.ucf(399)] is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/fif
+   o_1_wr_en<1> by the constraint <NET 
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/fifo*_wr_en<*>"           
+     MAXDELAY = 2000ps;> [system.ucf(436)].
+WARNING:NgdBuild:1012 - The constraint <NET 
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/fifo*_wr_en<*>"           
+                                MAXDELAY = 3007ps;> [system.ucf(399)] is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/fif
+   o_0_wr_en<1> by the constraint <NET 
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/fifo*_wr_en<*>"           
+     MAXDELAY = 2000ps;> [system.ucf(436)].
+WARNING:NgdBuild:1012 - The constraint <NET 
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/fifo*_wr_en<*>"           
+                                MAXDELAY = 3007ps;> [system.ucf(399)] is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/fif
+   o_1_wr_en<0> by the constraint <NET 
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/fifo*_wr_en<*>"           
+     MAXDELAY = 2000ps;> [system.ucf(436)].
+WARNING:NgdBuild:1012 - The constraint <NET 
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/fifo*_wr_en<*>"           
+                                MAXDELAY = 3007ps;> [system.ucf(399)] is
+   overridden on the design object
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/fif
+   o_0_wr_en<0> by the constraint <NET 
+   "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/fifo*_wr_en<*>"           
+     MAXDELAY = 2000ps;> [system.ucf(436)].
+Done...
+Checking Partitions ...
+
+Processing BMM file ...
+
+Checking expanded design ...
+WARNING:NgdBuild:443 - SFF primitive
+   'Ethernet_MAC/Ethernet_MAC/XEMAC_I/EMAC_I/COLLISION_SYNC' has unconnected
+   output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'Ethernet_MAC/Ethernet_MAC/XEMAC_I/XPS_IPIF_I/PLBV46_BURST_I/I_SLAVE_ATTACHME
+   NT/I_DECODER/MEM_DECODE_GEN[0].GEN_PLB_SHARED.I_BKEND_CS_REG' has unconnected
+   output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'Ethernet_MAC/Ethernet_MAC/XEMAC_I/XPS_IPIF_I/PLBV46_BURST_I/I_SLAVE_ATTACHME
+   NT/I_BURST_SUPPORT/RESPONSE_DBEAT_CNTR_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[6].FDR
+   E_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'Ethernet_MAC/Ethernet_MAC/XEMAC_I/XPS_IPIF_I/PLBV46_BURST_I/I_SLAVE_ATTACHME
+   NT/I_BURST_SUPPORT/CONTROL_DBEAT_CNTR_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[6].FDRE
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'Ethernet_MAC/Ethernet_MAC/XEMAC_I/XPS_IPIF_I/PLBV46_BURST_I/I_SLAVE_ATTACHME
+   NT/I_BUS_ADDRESS_COUNTER/I_FLEX_ADDR_CNTR/LDMUX_FDRSE_0to3[0].I_FDRSE_BE0to3'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'Ethernet_MAC/Ethernet_MAC/XEMAC_I/XPS_IPIF_I/PLBV46_BURST_I/I_SLAVE_ATTACHME
+   NT/I_BUS_ADDRESS_COUNTER/I_FLEX_ADDR_CNTR/LDMUX_FDRSE_0to3[1].I_FDRSE_BE0to3'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'Ethernet_MAC/Ethernet_MAC/XEMAC_I/XPS_IPIF_I/PLBV46_BURST_I/I_SLAVE_ATTACHME
+   NT/I_BUS_ADDRESS_COUNTER/I_FLEX_ADDR_CNTR/LDMUX_FDRSE_0to3[2].I_FDRSE_BE0to3'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'Ethernet_MAC/Ethernet_MAC/XEMAC_I/XPS_IPIF_I/PLBV46_BURST_I/I_SLAVE_ATTACHME
+   NT/I_BUS_ADDRESS_COUNTER/I_FLEX_ADDR_CNTR/LDMUX_FDRSE_0to3[3].I_FDRSE_BE0to3'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'Ethernet_MAC/Ethernet_MAC/XEMAC_I/XPS_IPIF_I/PLBV46_BURST_I/I_SLAVE_ATTACHME
+   NT/I_BUS_ADDRESS_COUNTER/GEN_FOR_SHARED.GEN_S_H_SIZE_REG[0].I_SIZE_S_H_REG'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'Ethernet_MAC/Ethernet_MAC/XEMAC_I/XPS_IPIF_I/PLBV46_BURST_I/I_SLAVE_ATTACHME
+   NT/I_STEER_ADDRESS_COUNTER/GEN_FOR_SHARED.GEN_S_H_SIZE_REG[0].I_SIZE_S_H_REG'
+   has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'Ethernet_MAC/Ethernet_MAC/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/BU10'
+   has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'Ethernet_MAC/Ethernet_MAC/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/BU15'
+   has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'Ethernet_MAC/Ethernet_MAC/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/BU20'
+   has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'Ethernet_MAC/Ethernet_MAC/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/BU25'
+   has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'Ethernet_MAC/Ethernet_MAC/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/BU30'
+   has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'Ethernet_MAC/Ethernet_MAC/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/BU35'
+   has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'Ethernet_MAC/Ethernet_MAC/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/BU130'
+   has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'Ethernet_MAC/Ethernet_MAC/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/BU237'
+   has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'Ethernet_MAC/Ethernet_MAC/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/BU10'
+   has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'Ethernet_MAC/Ethernet_MAC/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/BU15'
+   has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'Ethernet_MAC/Ethernet_MAC/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/BU20'
+   has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'Ethernet_MAC/Ethernet_MAC/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/BU25'
+   has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'Ethernet_MAC/Ethernet_MAC/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/BU30'
+   has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'Ethernet_MAC/Ethernet_MAC/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/BU35'
+   has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'Ethernet_MAC/Ethernet_MAC/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/BU130'
+   has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'Ethernet_MAC/Ethernet_MAC/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/BU237'
+   has unconnected output pin
+WARNING:NgdBuild:486 - Attribute "DIFF_TERM" is not allowed on symbol
+   "DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/datapath_iobs/gen_
+   dqs[3].dqs_iob/dqs_no_sim.diff_dqs.iobuf_dqs" of type "IOBUFDS".  This
+   attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "DIFF_TERM" is not allowed on symbol
+   "DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/datapath_iobs/gen_
+   dqs[2].dqs_iob/dqs_no_sim.diff_dqs.iobuf_dqs" of type "IOBUFDS".  This
+   attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "DIFF_TERM" is not allowed on symbol
+   "DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/datapath_iobs/gen_
+   dqs[1].dqs_iob/dqs_no_sim.diff_dqs.iobuf_dqs" of type "IOBUFDS".  This
+   attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "DIFF_TERM" is not allowed on symbol
+   "DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/iobs/datapath_iobs/gen_
+   dqs[0].dqs_iob/dqs_no_sim.diff_dqs.iobuf_dqs" of type "IOBUFDS".  This
+   attribute will be ignored.
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[0].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[1].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[2].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[3].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[4].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[5].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[6].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[7].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[8].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[9].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[10].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[11].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[12].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[13].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[14].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[15].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[16].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[17].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[18].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[19].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[20].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[0].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[1].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[2].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[3].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[4].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[5].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[6].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[7].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[8].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[9].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[10].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[11].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[12].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[13].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[14].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[15].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[16].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[17].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[18].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[19].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[20].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:452 - logical net 'N60' has no driver
+WARNING:NgdBuild:452 - logical net 'N61' has no driver
+WARNING:NgdBuild:452 - logical net 'N62' has no driver
+WARNING:NgdBuild:452 - logical net 'N63' has no driver
+WARNING:NgdBuild:452 - logical net 'N64' has no driver
+WARNING:NgdBuild:452 - logical net 'N65' has no driver
+WARNING:NgdBuild:452 - logical net 'N66' has no driver
+WARNING:NgdBuild:452 - logical net 'N67' has no driver
+WARNING:NgdBuild:452 - logical net 'N68' has no driver
+WARNING:NgdBuild:452 - logical net 'N69' has no driver
+WARNING:NgdBuild:452 - logical net 'N70' has no driver
+WARNING:NgdBuild:452 - logical net 'N71' has no driver
+WARNING:NgdBuild:452 - logical net 'N72' has no driver
+WARNING:NgdBuild:452 - logical net 'N73' has no driver
+WARNING:NgdBuild:452 - logical net 'N74' has no driver
+WARNING:NgdBuild:452 - logical net 'N75' has no driver
+WARNING:NgdBuild:452 - logical net 'N76' has no driver
+WARNING:NgdBuild:452 - logical net 'N77' has no driver
+WARNING:NgdBuild:452 - logical net 'N78' has no driver
+WARNING:NgdBuild:452 - logical net 'N79' has no driver
+WARNING:NgdBuild:452 - logical net 'N80' has no driver
+WARNING:NgdBuild:452 - logical net 'N81' has no driver
+WARNING:NgdBuild:452 - logical net 'N82' has no driver
+WARNING:NgdBuild:452 - logical net 'N83' has no driver
+WARNING:NgdBuild:452 - logical net 'N84' has no driver
+WARNING:NgdBuild:452 - logical net 'N85' has no driver
+WARNING:NgdBuild:452 - logical net 'N86' has no driver
+WARNING:NgdBuild:452 - logical net 'N87' has no driver
+WARNING:NgdBuild:452 - logical net 'N88' has no driver
+WARNING:NgdBuild:452 - logical net 'N89' has no driver
+WARNING:NgdBuild:452 - logical net 'N90' has no driver
+WARNING:NgdBuild:452 - logical net 'N91' has no driver
+WARNING:NgdBuild:452 - logical net 'N92' has no driver
+WARNING:NgdBuild:452 - logical net 'N93' has no driver
+WARNING:NgdBuild:452 - logical net 'N94' has no driver
+WARNING:NgdBuild:452 - logical net 'N95' has no driver
+WARNING:NgdBuild:452 - logical net 'N96' has no driver
+WARNING:NgdBuild:452 - logical net 'N97' has no driver
+WARNING:NgdBuild:452 - logical net 'N98' has no driver
+WARNING:NgdBuild:452 - logical net 'N99' has no driver
+WARNING:NgdBuild:478 - clock net mdm_0/bscan_drck1 with clock driver
+   mdm_0/mdm_0/BUFG_DRCK1 drives no clock pins
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings: 189
+
+Total memory usage is 420056 kilobytes
+
+Writing NGD file "system.ngd" ...
+Total REAL time to NGDBUILD completion: 1 min  18 sec
+Total CPU time to NGDBUILD completion:  1 min  16 sec
+
+Writing NGDBUILD log file "system.bld"...

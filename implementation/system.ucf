@@ -1,0 +1,781 @@
+#  Spartan-3A DSP 1800A Starter Board
+Net fpga_0_RS232_Uart_1_RX_pin LOC = N21  |  IOSTANDARD=LVTTL;
+Net fpga_0_RS232_Uart_1_TX_pin LOC = P22  |  IOSTANDARD=LVTTL;
+Net fpga_0_LEDs_8Bit_GPIO_IO_O_pin<0> LOC = D25  |  IOSTANDARD=LVTTL;
+Net fpga_0_LEDs_8Bit_GPIO_IO_O_pin<1> LOC = D24  |  IOSTANDARD=LVTTL;
+Net fpga_0_LEDs_8Bit_GPIO_IO_O_pin<2> LOC = G21  |  IOSTANDARD=LVTTL;
+Net fpga_0_LEDs_8Bit_GPIO_IO_O_pin<3> LOC = H20  |  IOSTANDARD=LVTTL;
+Net fpga_0_LEDs_8Bit_GPIO_IO_O_pin<4> LOC = K22  |  IOSTANDARD=LVTTL;
+Net fpga_0_LEDs_8Bit_GPIO_IO_O_pin<5> LOC = N19  |  IOSTANDARD=LVTTL;
+Net fpga_0_LEDs_8Bit_GPIO_IO_O_pin<6> LOC = P25  |  IOSTANDARD=LVTTL;
+Net fpga_0_LEDs_8Bit_GPIO_IO_O_pin<7> LOC = P18  |  IOSTANDARD=LVTTL;
+Net fpga_0_Push_Buttons_GPIO_IO_I_pin<0> LOC = J17  |  IOSTANDARD=LVTTL;
+Net fpga_0_Push_Buttons_GPIO_IO_I_pin<1> LOC = J15  |  IOSTANDARD=LVTTL;
+Net fpga_0_Push_Buttons_GPIO_IO_I_pin<2> LOC = J13  |  IOSTANDARD=LVTTL;
+Net fpga_0_Push_Buttons_GPIO_IO_I_pin<3> LOC = J10  |  IOSTANDARD=LVTTL;
+Net fpga_0_DIP_Switches_8Bit_GPIO_IO_I_pin<0> LOC=A23  |  IOSTANDARD=LVTTL;
+Net fpga_0_DIP_Switches_8Bit_GPIO_IO_I_pin<1> LOC=A5  |  IOSTANDARD=LVTTL;
+Net fpga_0_DIP_Switches_8Bit_GPIO_IO_I_pin<2> LOC=B24  |  IOSTANDARD=LVTTL;
+Net fpga_0_DIP_Switches_8Bit_GPIO_IO_I_pin<3> LOC=D19  |  IOSTANDARD=LVTTL;
+Net fpga_0_DIP_Switches_8Bit_GPIO_IO_I_pin<4> LOC=D15  |  IOSTANDARD=LVTTL;
+Net fpga_0_DIP_Switches_8Bit_GPIO_IO_I_pin<5> LOC=E9  |  IOSTANDARD=LVTTL;
+Net fpga_0_DIP_Switches_8Bit_GPIO_IO_I_pin<6> LOC=G16  |  IOSTANDARD=LVTTL;
+Net fpga_0_DIP_Switches_8Bit_GPIO_IO_I_pin<7> LOC=A7  |  IOSTANDARD=LVTTL;
+Net fpga_0_Ethernet_MAC_PHY_tx_clk_pin LOC=P2  |  IOSTANDARD = LVCMOS18;
+Net fpga_0_Ethernet_MAC_PHY_rx_clk_pin LOC=P1  |  IOSTANDARD = LVCMOS18;
+Net fpga_0_Ethernet_MAC_PHY_crs_pin LOC=G1  |  IOSTANDARD = LVCMOS18;
+Net fpga_0_Ethernet_MAC_PHY_dv_pin LOC=D1  |  IOSTANDARD = LVCMOS18;
+Net fpga_0_Ethernet_MAC_PHY_rx_data_pin<0> LOC=C2  |  IOSTANDARD = LVCMOS18  |  PULLUP;
+Net fpga_0_Ethernet_MAC_PHY_rx_data_pin<1> LOC=G2  |  IOSTANDARD = LVCMOS18  |  PULLUP;
+Net fpga_0_Ethernet_MAC_PHY_rx_data_pin<2> LOC=G5  |  IOSTANDARD = LVCMOS18  |  PULLUP;
+Net fpga_0_Ethernet_MAC_PHY_rx_data_pin<3> LOC=D2  |  IOSTANDARD = LVCMOS18  |  PULLUP;
+Net fpga_0_Ethernet_MAC_PHY_col_pin LOC=Y3  |  IOSTANDARD = LVCMOS18  |  PULLDOWN;
+Net fpga_0_Ethernet_MAC_PHY_rx_er_pin LOC=J3  |  IOSTANDARD = LVCMOS18;
+Net fpga_0_Ethernet_MAC_PHY_rst_n_pin LOC=G4  |  IOSTANDARD = LVCMOS18;
+Net fpga_0_Ethernet_MAC_PHY_tx_en_pin LOC=D3  |  IOSTANDARD = LVCMOS18;
+Net fpga_0_Ethernet_MAC_PHY_tx_data_pin<3> LOC=B1  |  IOSTANDARD = LVCMOS18;
+Net fpga_0_Ethernet_MAC_PHY_tx_data_pin<2> LOC=B2  |  IOSTANDARD = LVCMOS18;
+Net fpga_0_Ethernet_MAC_PHY_tx_data_pin<1> LOC=J9  |  IOSTANDARD = LVCMOS18;
+Net fpga_0_Ethernet_MAC_PHY_tx_data_pin<0> LOC=J8  |  IOSTANDARD = LVCMOS18;
+Net fpga_0_Ethernet_MAC_PHY_MDC_pin LOC=F4  |  IOSTANDARD = LVCMOS18;
+Net fpga_0_Ethernet_MAC_PHY_MDIO_pin LOC=F5  |  IOSTANDARD = LVCMOS18;
+Net fpga_0_SPI_FLASH_SCK_pin LOC=AE24 | IOSTANDARD = LVCMOS25;
+Net fpga_0_SPI_FLASH_MISO_pin LOC=AF24 | IOSTANDARD = LVCMOS25;
+Net fpga_0_SPI_FLASH_MOSI_pin LOC=AB15 | IOSTANDARD = LVCMOS25;
+Net fpga_0_SPI_FLASH_SS_pin<0> LOC=AA7  | IOSTANDARD = LVCMOS25;
+Net fpga_0_SPI_FLASH_SS_pin<1> LOC=W20  | IOSTANDARD = LVCMOS33;
+Net fpga_0_SPI_FLASH_SS_pin<2> LOC=W21  | IOSTANDARD = LVCMOS33;
+Net fpga_0_SPI_FLASH_SS_pin<3> LOC=AD26 | IOSTANDARD = LVCMOS33;
+Net fpga_0_SPI_FLASH_SS_pin<4> LOC=AC25 | IOSTANDARD = LVCMOS33;
+Net fpga_0_DDR2_SDRAM_DDR2_Clk_pin<0> LOC=N1  |  IOSTANDARD = DIFF_SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_Clk_pin<1> LOC=N5  |  IOSTANDARD = DIFF_SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_Clk_n_pin<0> LOC=N2  |  IOSTANDARD = DIFF_SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_Clk_n_pin<1> LOC=N4  |  IOSTANDARD = DIFF_SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_CE_pin LOC=L7  |  IOSTANDARD = SSTL18_I;
+Net fpga_0_DDR2_SDRAM_DDR2_CS_n_pin LOC=H2  |  IOSTANDARD = SSTL18_I;
+Net fpga_0_DDR2_SDRAM_DDR2_ODT_pin LOC=G3  |  IOSTANDARD = SSTL18_I;
+Net fpga_0_DDR2_SDRAM_DDR2_RAS_n_pin LOC=H1  |  IOSTANDARD = SSTL18_I;
+Net fpga_0_DDR2_SDRAM_DDR2_CAS_n_pin LOC=L10  |  IOSTANDARD = SSTL18_I;
+Net fpga_0_DDR2_SDRAM_DDR2_WE_n_pin LOC=L9  |  IOSTANDARD = SSTL18_I;
+Net fpga_0_DDR2_SDRAM_DDR2_BankAddr_pin<0> LOC=K6  |  IOSTANDARD = SSTL18_I;
+Net fpga_0_DDR2_SDRAM_DDR2_BankAddr_pin<1> LOC=J4  |  IOSTANDARD = SSTL18_I;
+Net fpga_0_DDR2_SDRAM_DDR2_Addr_pin<0> LOC=J5  |  IOSTANDARD = SSTL18_I;
+Net fpga_0_DDR2_SDRAM_DDR2_Addr_pin<1> LOC=M9  |  IOSTANDARD = SSTL18_I;
+Net fpga_0_DDR2_SDRAM_DDR2_Addr_pin<2> LOC=M10  |  IOSTANDARD = SSTL18_I;
+Net fpga_0_DDR2_SDRAM_DDR2_Addr_pin<3> LOC=K4  |  IOSTANDARD = SSTL18_I;
+Net fpga_0_DDR2_SDRAM_DDR2_Addr_pin<4> LOC=K5  |  IOSTANDARD = SSTL18_I;
+Net fpga_0_DDR2_SDRAM_DDR2_Addr_pin<5> LOC=K2  |  IOSTANDARD = SSTL18_I;
+Net fpga_0_DDR2_SDRAM_DDR2_Addr_pin<6> LOC=K3  |  IOSTANDARD = SSTL18_I;
+Net fpga_0_DDR2_SDRAM_DDR2_Addr_pin<7> LOC=L3  |  IOSTANDARD = SSTL18_I;
+Net fpga_0_DDR2_SDRAM_DDR2_Addr_pin<8> LOC=L4  |  IOSTANDARD = SSTL18_I;
+Net fpga_0_DDR2_SDRAM_DDR2_Addr_pin<9> LOC=M7  |  IOSTANDARD = SSTL18_I;
+Net fpga_0_DDR2_SDRAM_DDR2_Addr_pin<10> LOC=M8  |  IOSTANDARD = SSTL18_I;
+Net fpga_0_DDR2_SDRAM_DDR2_Addr_pin<11> LOC=M3  |  IOSTANDARD = SSTL18_I;
+Net fpga_0_DDR2_SDRAM_DDR2_Addr_pin<12> LOC=M4  |  IOSTANDARD = SSTL18_I;
+Net fpga_0_DDR2_SDRAM_DDR2_DQ_pin<0> LOC=U9  |  IOSTANDARD = SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_DQ_pin<1> LOC=V8  |  IOSTANDARD = SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_DQ_pin<2> LOC=AB1  |  IOSTANDARD = SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_DQ_pin<3> LOC=AC1  |  IOSTANDARD = SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_DQ_pin<4> LOC=Y5  |  IOSTANDARD = SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_DQ_pin<5> LOC=Y6  |  IOSTANDARD = SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_DQ_pin<6> LOC=U7  |  IOSTANDARD = SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_DQ_pin<7> LOC=U8  |  IOSTANDARD = SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_DQ_pin<8> LOC=AA2  |  IOSTANDARD = SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_DQ_pin<9> LOC=AA3  |  IOSTANDARD = SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_DQ_pin<10> LOC=Y1  |  IOSTANDARD = SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_DQ_pin<11> LOC=Y2  |  IOSTANDARD = SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_DQ_pin<12> LOC=T7  |  IOSTANDARD = SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_DQ_pin<13> LOC=U6  |  IOSTANDARD = SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_DQ_pin<14> LOC=U5  |  IOSTANDARD = SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_DQ_pin<15> LOC=V5  |  IOSTANDARD = SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_DQ_pin<16> LOC=R8  |  IOSTANDARD = SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_DQ_pin<17> LOC=R7  |  IOSTANDARD = SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_DQ_pin<18> LOC=U1  |  IOSTANDARD = SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_DQ_pin<19> LOC=U2  |  IOSTANDARD = SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_DQ_pin<20> LOC=P8  |  IOSTANDARD = SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_DQ_pin<21> LOC=P9  |  IOSTANDARD = SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_DQ_pin<22> LOC=R5  |  IOSTANDARD = SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_DQ_pin<23> LOC=R6  |  IOSTANDARD = SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_DQ_pin<24> LOC=P7  |  IOSTANDARD = SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_DQ_pin<25> LOC=P6  |  IOSTANDARD = SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_DQ_pin<26> LOC=T3  |  IOSTANDARD = SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_DQ_pin<27> LOC=T4  |  IOSTANDARD = SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_DQ_pin<28> LOC=N9  |  IOSTANDARD = SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_DQ_pin<29> LOC=P10  |  IOSTANDARD = SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_DQ_pin<30> LOC=P4  |  IOSTANDARD = SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_DQ_pin<31> LOC=P3  |  IOSTANDARD = SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_DM_pin<0> LOC=V2  |  IOSTANDARD = SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_DM_pin<1> LOC=V1  |  IOSTANDARD = SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_DM_pin<2> LOC=R2  |  IOSTANDARD = SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_DM_pin<3> LOC=M6  |  IOSTANDARD = SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_DQS_pin<0> LOC=V7  |  IOSTANDARD = DIFF_SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_DQS_pin<1> LOC=W3  |  IOSTANDARD = DIFF_SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_DQS_pin<2> LOC=T5  |  IOSTANDARD = DIFF_SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_DQS_pin<3> LOC=R3  |  IOSTANDARD = DIFF_SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_DQS_n_pin<0> LOC=V6  |  IOSTANDARD = DIFF_SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_DQS_n_pin<1> LOC=W4  |  IOSTANDARD = DIFF_SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_DQS_n_pin<2> LOC=U4  |  IOSTANDARD = DIFF_SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_DQS_n_pin<3> LOC=R4  |  IOSTANDARD = DIFF_SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_DQS_Div_O_pin LOC=T10  |  IOSTANDARD = SSTL18_II;
+Net fpga_0_DDR2_SDRAM_DDR2_DQS_Div_I_pin LOC=T9  |  IOSTANDARD = SSTL18_II;
+Net fpga_0_clk_1_sys_clk_pin TNM_NET = sys_clk_pin;
+TIMESPEC TS_sys_clk_pin = PERIOD sys_clk_pin 125000 kHz;
+Net fpga_0_clk_1_sys_clk_pin LOC = F13  |  IOSTANDARD=LVCMOS33;
+Net fpga_0_rst_1_sys_rst_pin TIG;
+Net fpga_0_rst_1_sys_rst_pin LOC = Y16  |  IOSTANDARD=LVTTL  |  PULLUP;
+
+###### DDR2_SDRAM
+### Constraints for MPMC on Spartan3A DSP 1800 board
+ 
+#######################################################################################################################
+# Calibration Circuit Constraints #
+#######################################################################################################################
+# Placement constraints for luts in tap delay ckt #
+#######################################################################################################################
+
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l0"  RLOC=X0Y6;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l0"  U_SET = "delay_calibration_chain";
+ 
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l1" RLOC=X0Y6;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l1"  U_SET = "delay_calibration_chain";
+ 
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l2" RLOC=X0Y7;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l2"  U_SET = "delay_calibration_chain";
+
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l3" RLOC=X0Y7;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l3"  U_SET = "delay_calibration_chain";
+
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l4" RLOC=X1Y6;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l4"  U_SET = "delay_calibration_chain";
+
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l5" RLOC=X1Y6;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l5"  U_SET = "delay_calibration_chain";
+
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l6" RLOC=X1Y7;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l6"  U_SET = "delay_calibration_chain";
+
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l7" RLOC=X1Y7;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l7"  U_SET = "delay_calibration_chain";
+  
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l8" RLOC=X0Y4;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l8"  U_SET = "delay_calibration_chain";
+ 
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l9" RLOC=X0Y4;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l9"  U_SET = "delay_calibration_chain";
+ 
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l10" RLOC=X0Y5;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l10"  U_SET = "delay_calibration_chain";
+ 
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l11" RLOC=X0Y5;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l11"  U_SET = "delay_calibration_chain";
+ 
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l12" RLOC=X1Y4;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l12"  U_SET = "delay_calibration_chain";
+ 
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l13" RLOC=X1Y4;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l13"  U_SET = "delay_calibration_chain";
+ 
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l14" RLOC=X1Y5;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l14"  U_SET = "delay_calibration_chain";
+
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l15" RLOC=X1Y5;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l15"  U_SET = "delay_calibration_chain";
+
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l16" RLOC=X0Y2;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l16"  U_SET = "delay_calibration_chain";
+
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l17" RLOC=X0Y2;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l17"  U_SET = "delay_calibration_chain";
+
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l18" RLOC=X0Y3;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l18"  U_SET = "delay_calibration_chain";
+
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l19" RLOC=X0Y3;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l19"  U_SET = "delay_calibration_chain";
+
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l20" RLOC=X1Y2;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l20"  U_SET = "delay_calibration_chain";
+
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l21" RLOC=X1Y2;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l21"  U_SET = "delay_calibration_chain";
+
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l22" RLOC=X1Y3;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l22"  U_SET = "delay_calibration_chain";
+
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l23" RLOC=X1Y3;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l23"  U_SET = "delay_calibration_chain";
+
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l24" RLOC=X0Y0;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l24"  U_SET = "delay_calibration_chain";
+
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l25" RLOC=X0Y0;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l25"  U_SET = "delay_calibration_chain";
+
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l26" RLOC=X0Y1;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l26"  U_SET = "delay_calibration_chain";
+
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l27" RLOC=X0Y1;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l27"  U_SET = "delay_calibration_chain";
+
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l28" RLOC=X1Y0;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l28"  U_SET = "delay_calibration_chain";
+
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l29" RLOC=X1Y0;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l29"  U_SET = "delay_calibration_chain";
+
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l30" RLOC=X1Y1;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l30"  U_SET = "delay_calibration_chain";
+
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l31" RLOC=X1Y1;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l31"  U_SET = "delay_calibration_chain";
+
+#######################################################################################################################
+# Placement constraints for first stage flops in tap delay ckt #
+#######################################################################################################################
+ 
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[0].r"    RLOC=X0Y6;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[0].r"   U_SET = "delay_calibration_chain";
+
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[1].r" RLOC=X0Y6;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[1].r"  U_SET = "delay_calibration_chain";
+
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[2].r" RLOC=X0Y7;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[2].r"  U_SET = "delay_calibration_chain";
+
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[3].r" RLOC=X0Y7;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[3].r"  U_SET = "delay_calibration_chain";
+
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[4].r" RLOC=X1Y6;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[4].r"  U_SET = "delay_calibration_chain";
+
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[5].r" RLOC=X1Y6;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[5].r"  U_SET = "delay_calibration_chain";
+
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[6].r" RLOC=X1Y7;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[6].r"  U_SET = "delay_calibration_chain";
+
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[7].r" RLOC=X1Y7;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[7].r"  U_SET = "delay_calibration_chain";
+
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[8].r" RLOC=X0Y4;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[8].r"  U_SET = "delay_calibration_chain";
+
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[9].r" RLOC=X0Y4;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[9].r"  U_SET = "delay_calibration_chain";
+
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[10].r" RLOC=X0Y5;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[10].r"  U_SET = "delay_calibration_chain";
+
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[11].r" RLOC=X0Y5;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[11].r"  U_SET = "delay_calibration_chain";
+
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[12].r" RLOC=X1Y4;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[12].r"  U_SET = "delay_calibration_chain";
+
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[13].r" RLOC=X1Y4;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[13].r"  U_SET = "delay_calibration_chain";
+
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[14].r" RLOC=X1Y5;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[14].r"  U_SET = "delay_calibration_chain";
+
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[15].r" RLOC=X1Y5;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[15].r"  U_SET = "delay_calibration_chain";
+
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[16].r" RLOC=X0Y2;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[16].r"  U_SET = "delay_calibration_chain";
+
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[17].r" RLOC=X0Y2;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[17].r"  U_SET = "delay_calibration_chain";
+
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[18].r" RLOC=X0Y3;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[18].r"  U_SET = "delay_calibration_chain";
+
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[19].r" RLOC=X0Y3;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[19].r"  U_SET = "delay_calibration_chain";
+
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[20].r" RLOC=X1Y2;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[20].r"  U_SET = "delay_calibration_chain";
+
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[21].r" RLOC=X1Y2;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[21].r"  U_SET = "delay_calibration_chain";
+
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[22].r" RLOC=X1Y3;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[22].r"  U_SET = "delay_calibration_chain";
+
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[23].r" RLOC=X1Y3;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[23].r"  U_SET = "delay_calibration_chain";
+
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[24].r" RLOC=X0Y0;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[24].r"  U_SET = "delay_calibration_chain";
+
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[25].r" RLOC=X0Y0;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[25].r"  U_SET = "delay_calibration_chain";
+
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[26].r" RLOC=X0Y1;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[26].r"  U_SET = "delay_calibration_chain";
+
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[27].r" RLOC=X0Y1;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[27].r"  U_SET = "delay_calibration_chain";
+
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[28].r" RLOC=X1Y0;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[28].r"  U_SET = "delay_calibration_chain";
+
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[29].r" RLOC=X1Y0;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[29].r"  U_SET = "delay_calibration_chain";
+
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[30].r" RLOC=X1Y1;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[30].r"  U_SET = "delay_calibration_chain";
+
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[31].r" RLOC=X1Y1;
+INST  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.gen_tap1[31].r"  U_SET = "delay_calibration_chain";
+
+
+
+#######################################################################################################################
+# BEL constraints for luts in tap delay ckt #
+#######################################################################################################################
+
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l0" BEL= G;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l1" BEL= F;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l2" BEL= G;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l3" BEL= F;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l4" BEL= G;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l5" BEL= F;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l6" BEL= G;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l7" BEL= F;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l8" BEL= G;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l9" BEL= F;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l10" BEL= G;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l11" BEL= F;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l12" BEL= G;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l13" BEL= F;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l14" BEL= G;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l15" BEL= F;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l16" BEL= G;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l17" BEL= F;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l18" BEL= G;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l19" BEL= F;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l20" BEL= G;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l21" BEL= F;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l22" BEL= G;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l23" BEL= F;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l24" BEL= G;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l25" BEL= F;  
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l26" BEL= G;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l27" BEL= F;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l28" BEL= G;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l29" BEL= F;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l30" BEL= G;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l31" BEL= F;
+
+
+ ######################################################################################
+ ##### constraints to have the inverter connetion wire length to be the same   ########
+ ###### the following  constraints are independent of frequency  ######################
+ ######################################################################################
+
+ ###### maxdelay of 400 ps will not be met. This constraint is just to get a better delay####
+ NET "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly*/tap[7]"  MAXDELAY = 465ps;  #bhf, 400 to 600
+ NET "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly*/tap[15]"  MAXDELAY = 465ps;  #bhf, 400 to 600
+ NET "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly*/tap[23]"  MAXDELAY = 465ps;  #bhf, 400 to 600
+ INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/dqs_div/dqs_rst_iob" IOB = TRUE;
+ 
+ ##################################################################
+ ##### constraints from the dqs pin ########
+ ##################################################################
+
+ ###### maxdelay of 460 ps will not be met. This constraint is just to get a better delay####
+ ###### The reported delay will be in the range of 500 to 600 ps####
+ NET "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/dqs_int_delay_in*" 	MAXDELAY = 661ps;
+ NET "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/dqs_div_rst"   	        MAXDELAY = 468ps;
+
+ ###### maxdelay of 160 ps will not be met. This constraint is just to get a better delay####
+ ###### The reported delay will be in the range of 200 to 360 ps####
+ NET "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[*]*u_dqs_delay_col*/delay*" MAXDELAY = 190ps;  #bhf, 160 to 360
+ NET "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller*rst_dqs_div_delayed*/delay*"        MAXDELAY = 200ps;
+
+# This constraints are here to help the tools place this logic to strive for these delay constraints. They may not get met
+NET "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/rst_dqs_div"            		MAXDELAY = 3007ps;
+NET  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/fifo*_wr_en<*>"                                         MAXDELAY = 3007ps;
+NET  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/fifo*_wr_addr*"                           MAXDELAY = 6390ps;
+
+#######################################################################################################################
+# Area Group Constraint For tap_dly and cal_ctl module #
+#######################################################################################################################
+
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/cal_ctl*" AREA_GROUP = cal_ctl;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly*" AREA_GROUP = cal_ctl;
+#AREA_GROUP "cal_ctl" RANGE = SLICE_X42Y8:SLICE_X53Y21; # For Bottom DCM/BUFG drives Memory Clock, usually used whem mem clock not 125 MHz
+AREA_GROUP "cal_ctl" RANGE = SLICE_X42Y154:SLICE_X53Y167; # For Top DCM/BUFG drives Memory Clock, usually used when mem clock is 125 MHz
+AREA_GROUP "cal_ctl" GROUP = CLOSED;  
+
+
+############################################################################
+# IO Signals Registering Constraints                                           #
+############################################################################
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/datapath_iobs/gen_dqs[*].dqs_iob*"  IOB = TRUE;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/datapath_iobs/gen_dq[*].dq_iob*"  IOB = TRUE;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/dqs_div/dqs_rst_iob"           IOB = TRUE;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/controller_iobs/gen_addr[*].addr_iob"  IOB = TRUE;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/controller_iobs/gen_ba[*].ba_iob"    IOB = TRUE;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/controller_iobs/ras_iob"   IOB = TRUE;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/controller_iobs/cas_iob"   IOB = TRUE;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/controller_iobs/we_iob"    IOB = TRUE;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/iobs/controller_iobs/gen_cke[*].cke_iob"    IOB = TRUE;
+
+############################################################################
+# Banks 3
+# Pin Location Constraints for Clock,Masks, Address, and Controls 
+ ############################################################################
+
+#########################################################################
+# MAXDELAY constraints                                                                        #
+#########################################################################
+NET  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/rst_dqs_div"        MAXDELAY = 3000ps;
+NET  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller*rst_dqs_div_delayed*"         MAXDELAY = 3000ps;
+NET  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/fifo*_wr_en<*>"              MAXDELAY = 2000ps;
+NET  "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/dqs_int_delay_in*"  MAXDELAY = 700ps;
+#########################################################################
+#############################################################
+##  constraints for bit fpga_0_DDR2_SDRAM_32Mx16_DDR2_DQ, 1, location in tile: 0
+#############################################################
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[0]*strobe0/gen_data[1]*u_fifo_bit" LOC = SLICE_X2Y26;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[0]*strobe0_n/gen_data[1]*u_fifo_bit" LOC = SLICE_X2Y27;
+#############################################################
+##  constraints for bit fpga_0_DDR2_SDRAM_32Mx16_DDR2_DQ, 0, location in tile: 0
+#############################################################
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[0]*strobe0/gen_data[0]*u_fifo_bit" LOC = SLICE_X0Y26;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[0]*strobe0_n/gen_data[0]*u_fifo_bit" LOC = SLICE_X0Y27;
+#############################################################
+##  constraints for bit fpga_0_DDR2_SDRAM_32Mx16_DDR2_DQ, 3, location in tile: 0
+#############################################################
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[0]*strobe0/gen_data[3]*u_fifo_bit" LOC = SLICE_X2Y28;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[0]*strobe0_n/gen_data[3]*u_fifo_bit" LOC = SLICE_X2Y29;
+#############################################################
+##  constraints for bit fpga_0_DDR2_SDRAM_32Mx16_DDR2_DQ, 2, location in tile: 0
+#############################################################
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[0]*strobe0/gen_data[2]*u_fifo_bit" LOC = SLICE_X0Y28;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[0]*strobe0_n/gen_data[2]*u_fifo_bit" LOC = SLICE_X0Y29;
+
+## LUT location constraints for col 0
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[0]*u_dqs_delay_col0/gen_delay.one" LOC = SLICE_X2Y31;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[0]*u_dqs_delay_col0/gen_delay.one" BEL = F;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[0]*u_dqs_delay_col0/gen_delay.two" LOC = SLICE_X2Y31;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[0]*u_dqs_delay_col0/gen_delay.two" BEL = G;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[0]*u_dqs_delay_col0/gen_delay.three" LOC = SLICE_X2Y30;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[0]*u_dqs_delay_col0/gen_delay.three" BEL = G;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[0]*u_dqs_delay_col0/gen_delay.four" LOC = SLICE_X2Y30;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[0]*u_dqs_delay_col0/gen_delay.four" BEL = F;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[0]*u_dqs_delay_col0/gen_delay.five" LOC = SLICE_X3Y31;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[0]*u_dqs_delay_col0/gen_delay.five" BEL = G;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[0]*u_dqs_delay_col0/gen_delay.six" LOC = SLICE_X3Y30;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[0]*u_dqs_delay_col0/gen_delay.six" BEL = G;
+
+## LUT location constraints for col 1
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[0]*u_dqs_delay_col1/gen_delay.one" LOC = SLICE_X0Y31;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[0]*u_dqs_delay_col1/gen_delay.one" BEL = F;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[0]*u_dqs_delay_col1/gen_delay.two" LOC = SLICE_X0Y31;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[0]*u_dqs_delay_col1/gen_delay.two" BEL = G;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[0]*u_dqs_delay_col1/gen_delay.three" LOC = SLICE_X0Y30;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[0]*u_dqs_delay_col1/gen_delay.three" BEL = G;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[0]*u_dqs_delay_col1/gen_delay.four" LOC = SLICE_X0Y30;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[0]*u_dqs_delay_col1/gen_delay.four" BEL = F;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[0]*u_dqs_delay_col1/gen_delay.five" LOC = SLICE_X1Y31;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[0]*u_dqs_delay_col1/gen_delay.five" BEL = G;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[0]*u_dqs_delay_col1/gen_delay.six" LOC = SLICE_X1Y30;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[0]*u_dqs_delay_col1/gen_delay.six" BEL = G;
+
+########################WRITE ADD & WRITE_EN##########
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_wr_addr[0].u_fifo_0_wr_addr/gen_addr[0].u_addr_bit" LOC = SLICE_X1Y26;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_wr_addr[0].u_fifo_0_wr_addr/gen_addr[1].u_addr_bit" LOC = SLICE_X1Y26;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_wr_addr[0].u_fifo_0_wr_addr/gen_addr[2].u_addr_bit" LOC = SLICE_X1Y27;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_wr_addr[0].u_fifo_0_wr_addr/gen_addr[3].u_addr_bit" LOC = SLICE_X1Y27;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_wr_addr[0].u_fifo_1_wr_addr/gen_addr[0].u_addr_bit" LOC = SLICE_X3Y26;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_wr_addr[0].u_fifo_1_wr_addr/gen_addr[1].u_addr_bit" LOC = SLICE_X3Y26;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_wr_addr[0].u_fifo_1_wr_addr/gen_addr[2].u_addr_bit" LOC = SLICE_X3Y27;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_wr_addr[0].u_fifo_1_wr_addr/gen_addr[3].u_addr_bit" LOC = SLICE_X3Y27;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_wr[0].u_fifo_0_wr_en/*" LOC = SLICE_X1Y29;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_wr[0].u_fifo_1_wr_en/*" LOC = SLICE_X3Y29;
+#############################################################
+##  constraints for bit fpga_0_DDR2_SDRAM_32Mx16_DDR2_DQ, 5, location in tile: 0
+#############################################################
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[0]*strobe0/gen_data[5]*u_fifo_bit" LOC = SLICE_X2Y34;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[0]*strobe0_n/gen_data[5]*u_fifo_bit" LOC = SLICE_X2Y35;
+#############################################################
+##  constraints for bit fpga_0_DDR2_SDRAM_32Mx16_DDR2_DQ, 4, location in tile: 0
+#############################################################
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[0]*strobe0/gen_data[4]*u_fifo_bit" LOC = SLICE_X0Y34;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[0]*strobe0_n/gen_data[4]*u_fifo_bit" LOC = SLICE_X0Y35;
+#############################################################
+##  constraints for bit fpga_0_DDR2_SDRAM_32Mx16_DDR2_DQ, 7, location in tile: 0
+#############################################################
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[0]*strobe0/gen_data[7]*u_fifo_bit" LOC = SLICE_X2Y36;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[0]*strobe0_n/gen_data[7]*u_fifo_bit" LOC = SLICE_X2Y37;
+#############################################################
+##  constraints for bit fpga_0_DDR2_SDRAM_32Mx16_DDR2_DQ, 6, location in tile: 0
+#############################################################
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[0]*strobe0/gen_data[6]*u_fifo_bit" LOC = SLICE_X0Y36;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[0]*strobe0_n/gen_data[6]*u_fifo_bit" LOC = SLICE_X0Y37;
+#############################################################
+##  constraints for bit fpga_0_DDR2_SDRAM_32Mx16_DDR2_DQ, 9, location in tile: 0
+#############################################################
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[1]*strobe0/gen_data[1]*u_fifo_bit" LOC = SLICE_X2Y38;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[1]*strobe0_n/gen_data[1]*u_fifo_bit" LOC = SLICE_X2Y39;
+#############################################################
+##  constraints for bit fpga_0_DDR2_SDRAM_32Mx16_DDR2_DQ, 8, location in tile: 0
+#############################################################
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[1]*strobe0/gen_data[0]*u_fifo_bit" LOC = SLICE_X0Y38;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[1]*strobe0_n/gen_data[0]*u_fifo_bit" LOC = SLICE_X0Y39;
+#############################################################
+##  constraints for bit fpga_0_DDR2_SDRAM_32Mx16_DDR2_DQ, 11, location in tile: 0
+#############################################################
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[1]*strobe0/gen_data[3]*u_fifo_bit" LOC = SLICE_X2Y42;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[1]*strobe0_n/gen_data[3]*u_fifo_bit" LOC = SLICE_X2Y43;
+#############################################################
+##  constraints for bit fpga_0_DDR2_SDRAM_32Mx16_DDR2_DQ, 10, location in tile: 0
+#############################################################
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[1]*strobe0/gen_data[2]*u_fifo_bit" LOC = SLICE_X0Y42;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[1]*strobe0_n/gen_data[2]*u_fifo_bit" LOC = SLICE_X0Y43;
+
+## LUT location constraints for col 0
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[1]*u_dqs_delay_col0/gen_delay.one" LOC = SLICE_X2Y45;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[1]*u_dqs_delay_col0/gen_delay.one" BEL = F;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[1]*u_dqs_delay_col0/gen_delay.two" LOC = SLICE_X2Y45;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[1]*u_dqs_delay_col0/gen_delay.two" BEL = G;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[1]*u_dqs_delay_col0/gen_delay.three" LOC = SLICE_X2Y44;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[1]*u_dqs_delay_col0/gen_delay.three" BEL = G;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[1]*u_dqs_delay_col0/gen_delay.four" LOC = SLICE_X2Y44;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[1]*u_dqs_delay_col0/gen_delay.four" BEL = F;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[1]*u_dqs_delay_col0/gen_delay.five" LOC = SLICE_X3Y45;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[1]*u_dqs_delay_col0/gen_delay.five" BEL = G;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[1]*u_dqs_delay_col0/gen_delay.six" LOC = SLICE_X3Y44;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[1]*u_dqs_delay_col0/gen_delay.six" BEL = G;
+
+## LUT location constraints for col 1
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[1]*u_dqs_delay_col1/gen_delay.one" LOC = SLICE_X0Y45;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[1]*u_dqs_delay_col1/gen_delay.one" BEL = F;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[1]*u_dqs_delay_col1/gen_delay.two" LOC = SLICE_X0Y45;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[1]*u_dqs_delay_col1/gen_delay.two" BEL = G;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[1]*u_dqs_delay_col1/gen_delay.three" LOC = SLICE_X0Y44;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[1]*u_dqs_delay_col1/gen_delay.three" BEL = G;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[1]*u_dqs_delay_col1/gen_delay.four" LOC = SLICE_X0Y44;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[1]*u_dqs_delay_col1/gen_delay.four" BEL = F;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[1]*u_dqs_delay_col1/gen_delay.five" LOC = SLICE_X1Y45;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[1]*u_dqs_delay_col1/gen_delay.five" BEL = G;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[1]*u_dqs_delay_col1/gen_delay.six" LOC = SLICE_X1Y44;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[1]*u_dqs_delay_col1/gen_delay.six" BEL = G;
+
+########################WRITE ADD & WRITE_EN##########
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_wr_addr[1].u_fifo_0_wr_addr/gen_addr[0].u_addr_bit" LOC = SLICE_X1Y40;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_wr_addr[1].u_fifo_0_wr_addr/gen_addr[1].u_addr_bit" LOC = SLICE_X1Y40;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_wr_addr[1].u_fifo_0_wr_addr/gen_addr[2].u_addr_bit" LOC = SLICE_X1Y41;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_wr_addr[1].u_fifo_0_wr_addr/gen_addr[3].u_addr_bit" LOC = SLICE_X1Y41;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_wr_addr[1].u_fifo_1_wr_addr/gen_addr[0].u_addr_bit" LOC = SLICE_X3Y40;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_wr_addr[1].u_fifo_1_wr_addr/gen_addr[1].u_addr_bit" LOC = SLICE_X3Y40;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_wr_addr[1].u_fifo_1_wr_addr/gen_addr[2].u_addr_bit" LOC = SLICE_X3Y41;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_wr_addr[1].u_fifo_1_wr_addr/gen_addr[3].u_addr_bit" LOC = SLICE_X3Y41;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_wr[1].u_fifo_0_wr_en/*" LOC = SLICE_X1Y43;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_wr[1].u_fifo_1_wr_en/*" LOC = SLICE_X3Y43;
+#############################################################
+##  constraints for bit fpga_0_DDR2_SDRAM_32Mx16_DDR2_DQ, 13, location in tile: 0
+#############################################################
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[1]*strobe0/gen_data[5]*u_fifo_bit" LOC = SLICE_X2Y46;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[1]*strobe0_n/gen_data[5]*u_fifo_bit" LOC = SLICE_X2Y47;
+#############################################################
+##  constraints for bit fpga_0_DDR2_SDRAM_32Mx16_DDR2_DQ, 12, location in tile: 0
+#############################################################
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[1]*strobe0/gen_data[4]*u_fifo_bit" LOC = SLICE_X0Y46;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[1]*strobe0_n/gen_data[4]*u_fifo_bit" LOC = SLICE_X0Y47;
+#############################################################
+##  constraints for bit fpga_0_DDR2_SDRAM_32Mx16_DDR2_DQ, 15, location in tile: 0
+#############################################################
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[1]*strobe0/gen_data[7]*u_fifo_bit" LOC = SLICE_X2Y50;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[1]*strobe0_n/gen_data[7]*u_fifo_bit" LOC = SLICE_X2Y51;
+#############################################################
+##  constraints for bit fpga_0_DDR2_SDRAM_32Mx16_DDR2_DQ, 14, location in tile: 0
+#############################################################
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[1]*strobe0/gen_data[6]*u_fifo_bit" LOC = SLICE_X0Y50;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[1]*strobe0_n/gen_data[6]*u_fifo_bit" LOC = SLICE_X0Y51;
+#############################################################
+##  constraints for bit fpga_0_DDR2_SDRAM_32Mx16_DDR2_DQ, 16, location in tile: 0
+#############################################################
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[2]*strobe0/gen_data[0]*u_fifo_bit" LOC = SLICE_X0Y58;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[2]*strobe0_n/gen_data[0]*u_fifo_bit" LOC = SLICE_X0Y59;
+#############################################################
+##  constraints for bit fpga_0_DDR2_SDRAM_32Mx16_DDR2_DQ, 17, location in tile: 0
+#############################################################
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[2]*strobe0/gen_data[1]*u_fifo_bit" LOC = SLICE_X2Y58;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[2]*strobe0_n/gen_data[1]*u_fifo_bit" LOC = SLICE_X2Y59;
+#############################################################
+##  constraints for bit fpga_0_DDR2_SDRAM_32Mx16_DDR2_DQ, 18, location in tile: 0
+#############################################################
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[2]*strobe0/gen_data[2]*u_fifo_bit" LOC = SLICE_X0Y60;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[2]*strobe0_n/gen_data[2]*u_fifo_bit" LOC = SLICE_X0Y61;
+#############################################################
+##  constraints for bit fpga_0_DDR2_SDRAM_32Mx16_DDR2_DQ, 19, location in tile: 0
+#############################################################
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[2]*strobe0/gen_data[3]*u_fifo_bit" LOC = SLICE_X2Y60;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[2]*strobe0_n/gen_data[3]*u_fifo_bit" LOC = SLICE_X2Y61;
+
+## LUT location constraints for col 0
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[2]*u_dqs_delay_col0/gen_delay.one" LOC = SLICE_X2Y67;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[2]*u_dqs_delay_col0/gen_delay.one" BEL = F;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[2]*u_dqs_delay_col0/gen_delay.two" LOC = SLICE_X2Y67;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[2]*u_dqs_delay_col0/gen_delay.two" BEL = G;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[2]*u_dqs_delay_col0/gen_delay.three" LOC = SLICE_X2Y66;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[2]*u_dqs_delay_col0/gen_delay.three" BEL = G;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[2]*u_dqs_delay_col0/gen_delay.four" LOC = SLICE_X2Y66;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[2]*u_dqs_delay_col0/gen_delay.four" BEL = F;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[2]*u_dqs_delay_col0/gen_delay.five" LOC = SLICE_X3Y67;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[2]*u_dqs_delay_col0/gen_delay.five" BEL = G;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[2]*u_dqs_delay_col0/gen_delay.six" LOC = SLICE_X3Y66;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[2]*u_dqs_delay_col0/gen_delay.six" BEL = G;
+
+## LUT location constraints for col 1
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[2]*u_dqs_delay_col1/gen_delay.one" LOC = SLICE_X0Y67;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[2]*u_dqs_delay_col1/gen_delay.one" BEL = F;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[2]*u_dqs_delay_col1/gen_delay.two" LOC = SLICE_X0Y67;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[2]*u_dqs_delay_col1/gen_delay.two" BEL = G;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[2]*u_dqs_delay_col1/gen_delay.three" LOC = SLICE_X0Y66;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[2]*u_dqs_delay_col1/gen_delay.three" BEL = G;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[2]*u_dqs_delay_col1/gen_delay.four" LOC = SLICE_X0Y66;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[2]*u_dqs_delay_col1/gen_delay.four" BEL = F;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[2]*u_dqs_delay_col1/gen_delay.five" LOC = SLICE_X1Y67;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[2]*u_dqs_delay_col1/gen_delay.five" BEL = G;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[2]*u_dqs_delay_col1/gen_delay.six" LOC = SLICE_X1Y66;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[2]*u_dqs_delay_col1/gen_delay.six" BEL = G;
+
+########################WRITE ADD & WRITE_EN##########
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_wr_addr[2].u_fifo_0_wr_addr/gen_addr[0].u_addr_bit" LOC = SLICE_X1Y62;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_wr_addr[2].u_fifo_0_wr_addr/gen_addr[1].u_addr_bit" LOC = SLICE_X1Y62;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_wr_addr[2].u_fifo_0_wr_addr/gen_addr[2].u_addr_bit" LOC = SLICE_X1Y63;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_wr_addr[2].u_fifo_0_wr_addr/gen_addr[3].u_addr_bit" LOC = SLICE_X1Y63;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_wr_addr[2].u_fifo_1_wr_addr/gen_addr[0].u_addr_bit" LOC = SLICE_X3Y62;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_wr_addr[2].u_fifo_1_wr_addr/gen_addr[1].u_addr_bit" LOC = SLICE_X3Y62;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_wr_addr[2].u_fifo_1_wr_addr/gen_addr[2].u_addr_bit" LOC = SLICE_X3Y63;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_wr_addr[2].u_fifo_1_wr_addr/gen_addr[3].u_addr_bit" LOC = SLICE_X3Y63;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_wr[2].u_fifo_0_wr_en/*" LOC = SLICE_X1Y65;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_wr[2].u_fifo_1_wr_en/*" LOC = SLICE_X3Y65;
+#############################################################
+##  constraints for bit fpga_0_DDR2_SDRAM_32Mx16_DDR2_DQ, 21, location in tile: 0
+#############################################################
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[2]*strobe0/gen_data[5]*u_fifo_bit" LOC = SLICE_X2Y68;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[2]*strobe0_n/gen_data[5]*u_fifo_bit" LOC = SLICE_X2Y69;
+#############################################################
+##  constraints for bit fpga_0_DDR2_SDRAM_32Mx16_DDR2_DQ, 20, location in tile: 0
+#############################################################
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[2]*strobe0/gen_data[4]*u_fifo_bit" LOC = SLICE_X0Y68;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[2]*strobe0_n/gen_data[4]*u_fifo_bit" LOC = SLICE_X0Y69;
+#############################################################
+##  constraints for bit fpga_0_DDR2_SDRAM_32Mx16_DDR2_DQ, 23, location in tile: 0
+#############################################################
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[2]*strobe0/gen_data[7]*u_fifo_bit" LOC = SLICE_X2Y70;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[2]*strobe0_n/gen_data[7]*u_fifo_bit" LOC = SLICE_X2Y71;
+#############################################################
+##  constraints for bit fpga_0_DDR2_SDRAM_32Mx16_DDR2_DQ, 22, location in tile: 0
+#############################################################
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[2]*strobe0/gen_data[6]*u_fifo_bit" LOC = SLICE_X0Y70;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[2]*strobe0_n/gen_data[6]*u_fifo_bit" LOC = SLICE_X0Y71;
+#############################################################
+##  constraints for bit fpga_0_DDR2_SDRAM_32Mx16_DDR2_DQ, 25, location in tile: 0
+#############################################################
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[3]*strobe0/gen_data[1]*u_fifo_bit" LOC = SLICE_X2Y74;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[3]*strobe0_n/gen_data[1]*u_fifo_bit" LOC = SLICE_X2Y75;
+#############################################################
+##  constraints for bit fpga_0_DDR2_SDRAM_32Mx16_DDR2_DQ, 24, location in tile: 0
+#############################################################
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[3]*strobe0/gen_data[0]*u_fifo_bit" LOC = SLICE_X0Y74;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[3]*strobe0_n/gen_data[0]*u_fifo_bit" LOC = SLICE_X0Y75;
+#############################################################
+##  constraints for bit fpga_0_DDR2_SDRAM_32Mx16_DDR2_DQ, 27, location in tile: 0
+#############################################################
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[3]*strobe0/gen_data[3]*u_fifo_bit" LOC = SLICE_X2Y76;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[3]*strobe0_n/gen_data[3]*u_fifo_bit" LOC = SLICE_X2Y77;
+#############################################################
+##  constraints for bit fpga_0_DDR2_SDRAM_32Mx16_DDR2_DQ, 26, location in tile: 0
+#############################################################
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[3]*strobe0/gen_data[2]*u_fifo_bit" LOC = SLICE_X0Y76;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[3]*strobe0_n/gen_data[2]*u_fifo_bit" LOC = SLICE_X0Y77;
+## LUT location constraints for col 0
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[3]*u_dqs_delay_col0/gen_delay.one" LOC = SLICE_X2Y79;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[3]*u_dqs_delay_col0/gen_delay.one" BEL = F;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[3]*u_dqs_delay_col0/gen_delay.two" LOC = SLICE_X2Y79;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[3]*u_dqs_delay_col0/gen_delay.two" BEL = G;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[3]*u_dqs_delay_col0/gen_delay.three" LOC = SLICE_X2Y78;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[3]*u_dqs_delay_col0/gen_delay.three" BEL = G;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[3]*u_dqs_delay_col0/gen_delay.four" LOC = SLICE_X2Y78;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[3]*u_dqs_delay_col0/gen_delay.four" BEL = F;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[3]*u_dqs_delay_col0/gen_delay.five" LOC = SLICE_X3Y79;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[3]*u_dqs_delay_col0/gen_delay.five" BEL = G;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[3]*u_dqs_delay_col0/gen_delay.six" LOC = SLICE_X3Y78;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[3]*u_dqs_delay_col0/gen_delay.six" BEL = G;
+
+## LUT location constraints for col 1
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[3]*u_dqs_delay_col1/gen_delay.one" LOC = SLICE_X0Y79;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[3]*u_dqs_delay_col1/gen_delay.one" BEL = F;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[3]*u_dqs_delay_col1/gen_delay.two" LOC = SLICE_X0Y79;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[3]*u_dqs_delay_col1/gen_delay.two" BEL = G;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[3]*u_dqs_delay_col1/gen_delay.three" LOC = SLICE_X0Y78;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[3]*u_dqs_delay_col1/gen_delay.three" BEL = G;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[3]*u_dqs_delay_col1/gen_delay.four" LOC = SLICE_X0Y78;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[3]*u_dqs_delay_col1/gen_delay.four" BEL = F;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[3]*u_dqs_delay_col1/gen_delay.five" LOC = SLICE_X1Y79;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[3]*u_dqs_delay_col1/gen_delay.five" BEL = G;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[3]*u_dqs_delay_col1/gen_delay.six" LOC = SLICE_X1Y78;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_dqs[3]*u_dqs_delay_col1/gen_delay.six" BEL = G;
+
+########################WRITE ADD & WRITE_EN##########
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_wr_addr[3].u_fifo_0_wr_addr/gen_addr[0].u_addr_bit" LOC = SLICE_X1Y74;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_wr_addr[3].u_fifo_0_wr_addr/gen_addr[1].u_addr_bit" LOC = SLICE_X1Y74;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_wr_addr[3].u_fifo_0_wr_addr/gen_addr[2].u_addr_bit" LOC = SLICE_X1Y75;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_wr_addr[3].u_fifo_0_wr_addr/gen_addr[3].u_addr_bit" LOC = SLICE_X1Y75;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_wr_addr[3].u_fifo_1_wr_addr/gen_addr[0].u_addr_bit" LOC = SLICE_X3Y74;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_wr_addr[3].u_fifo_1_wr_addr/gen_addr[1].u_addr_bit" LOC = SLICE_X3Y74;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_wr_addr[3].u_fifo_1_wr_addr/gen_addr[2].u_addr_bit" LOC = SLICE_X3Y75;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_wr_addr[3].u_fifo_1_wr_addr/gen_addr[3].u_addr_bit" LOC = SLICE_X3Y75;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_wr[3].u_fifo_0_wr_en/*" LOC = SLICE_X1Y77;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller/gen_wr[3].u_fifo_1_wr_en/*" LOC = SLICE_X3Y77;
+#############################################################
+##  constraints for bit fpga_0_DDR2_SDRAM_32Mx16_DDR2_DQ, 29, location in tile: 0
+#############################################################
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[3]*strobe0/gen_data[5]*u_fifo_bit" LOC = SLICE_X2Y84;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[3]*strobe0_n/gen_data[5]*u_fifo_bit" LOC = SLICE_X2Y85;
+#############################################################
+##  constraints for bit fpga_0_DDR2_SDRAM_32Mx16_DDR2_DQ, 28, location in tile: 0
+#############################################################
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[3]*strobe0/gen_data[4]*u_fifo_bit" LOC = SLICE_X0Y84;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[3]*strobe0_n/gen_data[4]*u_fifo_bit" LOC = SLICE_X0Y85;
+#############################################################
+##  constraints for bit fpga_0_DDR2_SDRAM_32Mx16_DDR2_DQ, 31, location in tile: 0
+#############################################################
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[3]*strobe0/gen_data[7]*u_fifo_bit" LOC = SLICE_X2Y86;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[3]*strobe0_n/gen_data[7]*u_fifo_bit" LOC = SLICE_X2Y87;
+#############################################################
+##  constraints for bit fpga_0_DDR2_SDRAM_32Mx16_DDR2_DQ, 30, location in tile: 0
+#############################################################
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[3]*strobe0/gen_data[6]*u_fifo_bit" LOC = SLICE_X0Y86;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read/gen_data[3]*strobe0_n/gen_data[6]*u_fifo_bit" LOC = SLICE_X0Y87;
+## LUT location constraints for col 1
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller*rst_dqs_div_delayed/gen_delay.one" LOC = SLICE_X0Y53;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller*rst_dqs_div_delayed/gen_delay.one" BEL = F;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller*rst_dqs_div_delayed/gen_delay.two" LOC = SLICE_X0Y52;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller*rst_dqs_div_delayed/gen_delay.two" BEL = F;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller*rst_dqs_div_delayed/gen_delay.three" LOC = SLICE_X0Y53;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller*rst_dqs_div_delayed/gen_delay.three" BEL = G;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller*rst_dqs_div_delayed/gen_delay.four" LOC = SLICE_X1Y52;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller*rst_dqs_div_delayed/gen_delay.four" BEL = F;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller*rst_dqs_div_delayed/gen_delay.five" LOC = SLICE_X1Y52;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller*rst_dqs_div_delayed/gen_delay.five" BEL = G;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller*rst_dqs_div_delayed/gen_delay.six" LOC = SLICE_X1Y53;
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/data_path/data_read_controller*rst_dqs_div_delayed/gen_delay.six" BEL = G;
+
+## LUT location constraints for col 1
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/dqs_div/dqs_rst_ff" LOC = SLICE_X4Y52;
+#################################################################################
+
+##############################################################################################################
+## RLOC Origin constraint for LUT delay calibration chain.
+##############################################################################################################
+INST "*/mpmc_core_0/gen_s3_ddr*.mpmc_phy_if_0/infrastructure/cal_top/tap_dly/gen_no_sim.l0" RLOC_ORIGIN=X42Y154;
+
+

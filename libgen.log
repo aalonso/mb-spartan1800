@@ -1,0 +1,189 @@
+Release 11.5 - libgen Xilinx EDK 11.5 Build EDK_LS5.70
+ (lin64)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -mhs system.mhs -p xc3sd1800afg676-4 -msg
+__xps/ise/xmsgprops.lst system.mss 
+
+Release 11.5 - psf2Edward EDK_LS5.70 (lin64)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+
+Checking platform configuration ...
+IPNAME:plb_v46 INSTANCE:mb_plb -
+/home/aalonso/workspace/microblaze/mb-spartan1800/system.mhs line 75 - 2
+master(s) : 11 slave(s)
+IPNAME:lmb_v10 INSTANCE:ilmb -
+/home/aalonso/workspace/microblaze/mb-spartan1800/system.mhs line 82 - 1
+master(s) : 1 slave(s)
+IPNAME:lmb_v10 INSTANCE:dlmb -
+/home/aalonso/workspace/microblaze/mb-spartan1800/system.mhs line 89 - 1
+master(s) : 1 slave(s)
+
+Checking port drivers...
+WARNING:EDK:2098 - PORT:IWAIT CONNECTOR:ilmb_LMB_Wait -
+   /opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v7_20_d/data/m
+   icroblaze_v2_1_0.mpd line 234 - No driver found. Port will be driven to GND!
+WARNING:EDK:2098 - PORT:DWAIT CONNECTOR:dlmb_LMB_Wait -
+   /opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v7_20_d/data/m
+   icroblaze_v2_1_0.mpd line 270 - No driver found. Port will be driven to GND!
+WARNING:EDK:2098 - PORT:bscan_tdo1 CONNECTOR:bscan_tdo1 -
+   /opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/mdm_v1_00_g/data/mdm_v2_1
+   _0.mpd line 230 - No driver found. Port will be driven to GND!
+WARNING:EDK:2099 - PORT:I_ADDRTAG CONNECTOR:ilmb_M_ADDRTAG -
+   /opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v7_20_d/data/m
+   icroblaze_v2_1_0.mpd line 232 - floating connection!
+WARNING:EDK:2099 - PORT:D_ADDRTAG CONNECTOR:dlmb_M_ADDRTAG -
+   /opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v7_20_d/data/m
+   icroblaze_v2_1_0.mpd line 273 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_tdi CONNECTOR:bscan_tdi -
+   /opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/mdm_v1_00_g/data/mdm_v2_1
+   _0.mpd line 223 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_reset CONNECTOR:bscan_reset -
+   /opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/mdm_v1_00_g/data/mdm_v2_1
+   _0.mpd line 224 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_shift CONNECTOR:bscan_shift -
+   /opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/mdm_v1_00_g/data/mdm_v2_1
+   _0.mpd line 225 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_update CONNECTOR:bscan_update -
+   /opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/mdm_v1_00_g/data/mdm_v2_1
+   _0.mpd line 226 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_capture CONNECTOR:bscan_capture -
+   /opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/mdm_v1_00_g/data/mdm_v2_1
+   _0.mpd line 227 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_sel1 CONNECTOR:bscan_sel1 -
+   /opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/mdm_v1_00_g/data/mdm_v2_1
+   _0.mpd line 228 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_drck1 CONNECTOR:bscan_drck1 -
+   /opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/mdm_v1_00_g/data/mdm_v2_1
+   _0.mpd line 229 - floating connection!
+
+Performing Clock DRCs...
+
+Performing Reset DRCs...
+
+Overriding system level properties...
+
+Running system level update procedures...
+
+Running UPDATE Tcl procedures for OPTION SYSLEVEL_UPDATE_PROC...
+
+Running system level DRCs...
+
+Performing System level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION SYSLEVEL_DRC_PROC...
+Port present in Ethernet_MAC
+INFO:EDK:1740 - List of peripherals connected to processor instance
+   microblaze_0: 
+  - DDR2_SDRAM
+  - DIP_Switches_8Bit
+  - Ethernet_MAC
+  - LEDs_8Bit
+  - Push_Buttons
+  - RS232_Uart_1
+  - SPI_FLASH
+  - dlmb_cntlr
+  - ilmb_cntlr
+  - mdm_0
+  - xps_intc_0
+  - xps_timebase_wdt_0
+  - xps_timer_0
+
+-- Generating libraries for processor: microblaze_0 --
+
+
+Staging source files.
+Running DRCs.
+#--------------------------------------
+# device-tree BSP DRC...!
+#--------------------------------------
+Running generate.
+#--------------------------------------
+# device-tree BSP generate...
+#--------------------------------------
+--- device tree generator version: v1.1 ---
+generating xilinx.dts
+Clock Port Summary:
+microblaze_0.CLK connected to clk_62_5000MHz:
+    CLK_FREQ_HZ = 62500000
+mb_plb.PLB_Clk connected to clk_62_5000MHz:
+    CLK_FREQ_HZ = 62500000
+ilmb.LMB_Clk connected to clk_62_5000MHz:
+    CLK_FREQ_HZ = 62500000
+dlmb.LMB_Clk connected to clk_62_5000MHz:
+    CLK_FREQ_HZ = 62500000
+dlmb_cntlr.LMB_Clk connected to clk_62_5000MHz:
+    CLK_FREQ_HZ = 62500000
+ilmb_cntlr.LMB_Clk connected to clk_62_5000MHz:
+    CLK_FREQ_HZ = 62500000
+lmb_bram.BRAM_Clk_A connected to ilmb_port_BRAM_Clk:
+    CLK_FREQ_HZ = 62500000
+lmb_bram.BRAM_Clk_B connected to dlmb_port_BRAM_Clk:
+    CLK_FREQ_HZ = 62500000
+RS232_Uart_1.SPLB_Clk connected to clk_62_5000MHz:
+    CLK_FREQ_HZ = 62500000
+LEDs_8Bit.SPLB_Clk connected to clk_62_5000MHz:
+    CLK_FREQ_HZ = 62500000
+Push_Buttons.SPLB_Clk connected to clk_62_5000MHz:
+    CLK_FREQ_HZ = 62500000
+DIP_Switches_8Bit.SPLB_Clk connected to clk_62_5000MHz:
+    CLK_FREQ_HZ = 62500000
+Ethernet_MAC.SPLB_Clk connected to clk_62_5000MHz:
+    CLK_FREQ_HZ = 62500000
+SPI_FLASH.SPLB_Clk connected to clk_62_5000MHz:
+    CLK_FREQ_HZ = 62500000
+DDR2_SDRAM.MPMC_Clk0 connected to clk_125_0000MHzDCM0:
+    CLK_FREQ_HZ = 125000000
+DDR2_SDRAM.MPMC_Clk90 connected to clk_125_0000MHz90DCM0:
+    CLK_FREQ_HZ = 125000000
+DDR2_SDRAM.DDR2_Clk connected to fpga_0_DDR2_SDRAM_DDR2_Clk_pin:
+    CLK_FREQ_HZ = WARNING: no frequency found!
+    CLK_INPORT = 
+    CLK_FACTOR = 
+DDR2_SDRAM.DDR2_Clk_n connected to fpga_0_DDR2_SDRAM_DDR2_Clk_n_pin:
+    CLK_FREQ_HZ = WARNING: no frequency found!
+    CLK_INPORT = 
+    CLK_FACTOR = 
+DDR2_SDRAM.SPLB0_Clk connected to clk_62_5000MHz:
+    CLK_FREQ_HZ = 62500000
+xps_timebase_wdt_0.SPLB_Clk connected to clk_62_5000MHz:
+    CLK_FREQ_HZ = 62500000
+xps_timer_0.SPLB_Clk connected to clk_62_5000MHz:
+    CLK_FREQ_HZ = 62500000
+clock_generator_0.CLKIN connected to dcm_clk_s:
+    CLK_FREQ_HZ = 125000000
+clock_generator_0.CLKOUT0 connected to clk_125_0000MHz90DCM0:
+    CLK_FREQ_HZ = 125000000
+    CLK_INPORT = 
+    CLK_FACTOR = 
+clock_generator_0.CLKOUT1 connected to clk_125_0000MHzDCM0:
+    CLK_FREQ_HZ = 125000000
+    CLK_INPORT = 
+    CLK_FACTOR = 
+clock_generator_0.CLKOUT2 connected to clk_62_5000MHz:
+    CLK_FREQ_HZ = 62500000
+    CLK_INPORT = 
+    CLK_FACTOR = 
+mdm_0.SPLB_Clk connected to clk_62_5000MHz:
+    CLK_FREQ_HZ = 62500000
+proc_sys_reset_0.Slowest_sync_clk connected to clk_62_5000MHz:
+    CLK_FREQ_HZ = 62500000
+xps_intc_0.SPLB_Clk connected to clk_62_5000MHz:
+    CLK_FREQ_HZ = 62500000
+Clock Frequency: 62500000
+IP connected to bus: mb_plb
+-master DPLB mb_plb microblaze_0
+-master IPLB mb_plb microblaze_0
+-slave SPLB mb_plb RS232_Uart_1
+-slave SPLB mb_plb LEDs_8Bit
+-slave SPLB mb_plb Push_Buttons
+-slave SPLB mb_plb DIP_Switches_8Bit
+-slave SPLB mb_plb Ethernet_MAC
+-slave SPLB mb_plb SPI_FLASH
+-slave SPLB0 mb_plb DDR2_SDRAM
+-slave SPLB mb_plb xps_timebase_wdt_0
+-slave SPLB mb_plb xps_timer_0
+-slave SPLB mb_plb mdm_0
+-slave SPLB mb_plb xps_intc_0
+Running post_generate.
+Running execs_generate.

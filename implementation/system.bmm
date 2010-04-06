@@ -1,0 +1,42 @@
+// File: /home/aalonso/workspace/microblaze/mb-spartan1800/implementation/system.bmm
+
+ADDRESS_MAP microblaze_0 MICROBLAZE 100
+	ADDRESS_SPACE lmb_bram_combined COMBINED [0x00000000:0x0000ffff]
+		ADDRESS_RANGE RAMB16
+		BUS_BLOCK
+			lmb_bram/lmb_bram/ramb16bwer_0 [31:31] ;
+			lmb_bram/lmb_bram/ramb16bwer_1 [30:30] ;
+			lmb_bram/lmb_bram/ramb16bwer_2 [29:29] ;
+			lmb_bram/lmb_bram/ramb16bwer_3 [28:28] ;
+			lmb_bram/lmb_bram/ramb16bwer_4 [27:27] ;
+			lmb_bram/lmb_bram/ramb16bwer_5 [26:26] ;
+			lmb_bram/lmb_bram/ramb16bwer_6 [25:25] ;
+			lmb_bram/lmb_bram/ramb16bwer_7 [24:24] ;
+			lmb_bram/lmb_bram/ramb16bwer_8 [23:23] ;
+			lmb_bram/lmb_bram/ramb16bwer_9 [22:22] ;
+			lmb_bram/lmb_bram/ramb16bwer_10 [21:21] ;
+			lmb_bram/lmb_bram/ramb16bwer_11 [20:20] ;
+			lmb_bram/lmb_bram/ramb16bwer_12 [19:19] ;
+			lmb_bram/lmb_bram/ramb16bwer_13 [18:18] ;
+			lmb_bram/lmb_bram/ramb16bwer_14 [17:17] ;
+			lmb_bram/lmb_bram/ramb16bwer_15 [16:16] ;
+			lmb_bram/lmb_bram/ramb16bwer_16 [15:15] ;
+			lmb_bram/lmb_bram/ramb16bwer_17 [14:14] ;
+			lmb_bram/lmb_bram/ramb16bwer_18 [13:13] ;
+			lmb_bram/lmb_bram/ramb16bwer_19 [12:12] ;
+			lmb_bram/lmb_bram/ramb16bwer_20 [11:11] ;
+			lmb_bram/lmb_bram/ramb16bwer_21 [10:10] ;
+			lmb_bram/lmb_bram/ramb16bwer_22 [9:9] ;
+			lmb_bram/lmb_bram/ramb16bwer_23 [8:8] ;
+			lmb_bram/lmb_bram/ramb16bwer_24 [7:7] ;
+			lmb_bram/lmb_bram/ramb16bwer_25 [6:6] ;
+			lmb_bram/lmb_bram/ramb16bwer_26 [5:5] ;
+			lmb_bram/lmb_bram/ramb16bwer_27 [4:4] ;
+			lmb_bram/lmb_bram/ramb16bwer_28 [3:3] ;
+			lmb_bram/lmb_bram/ramb16bwer_29 [2:2] ;
+			lmb_bram/lmb_bram/ramb16bwer_30 [1:1] ;
+			lmb_bram/lmb_bram/ramb16bwer_31 [0:0] ;
+		END_BUS_BLOCK;
+		END_ADDRESS_RANGE;
+	END_ADDRESS_SPACE;
+END_ADDRESS_MAP;

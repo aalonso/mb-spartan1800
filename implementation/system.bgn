@@ -1,0 +1,290 @@
+Release 11.5 - Bitgen L.70 (lin64)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+PMSPEC -- Overriding Xilinx file
+</opt/Xilinx/11.5/EDK/spartan3adsp/data/spartan3adsp.acd> with local file
+</opt/Xilinx/11.5/ISE/spartan3adsp/data/spartan3adsp.acd>
+Loading device for application Rf_Device from file '3sd1800a.nph' in environment
+/opt/Xilinx/11.5/ISE:/opt/Xilinx/11.5/EDK.
+   "system" is an NCD, version 3.2, device xc3sd1800a, package fg676, speed -4
+Opened constraints file system.pcf.
+
+Mon Apr  5 21:02:03 2010
+
+/opt/Xilinx/11.5/ISE/bin/lin64/unwrapped/bitgen -w -g CclkPin:PULLUP -g TdoPin:PULLNONE -g DonePin:PULLUP -g StartUpClk:JTAGCLK -g ProgPin:PULLUP -g TckPin:PULLUP -g TdiPin:PULLUP -g TmsPin:PULLUP -g LCK_cycle:NoWait -g Security:NONE -g Persist:No system.ncd 
+
+Summary of Bitgen Options:
++----------------------+----------------------+
+| Option Name          | Current Setting      |
++----------------------+----------------------+
+| Compress             | (Not Specified)*     |
++----------------------+----------------------+
+| Readback             | (Not Specified)*     |
++----------------------+----------------------+
+| CRC                  | Enable*              |
++----------------------+----------------------+
+| DebugBitstream       | No*                  |
++----------------------+----------------------+
+| ConfigRate           | 6*                   |
++----------------------+----------------------+
+| StartupClk           | JtagClk              |
++----------------------+----------------------+
+| DonePin              | Pullup**             |
++----------------------+----------------------+
+| ProgPin              | Pullup**             |
++----------------------+----------------------+
+| TckPin               | Pullup**             |
++----------------------+----------------------+
+| TdiPin               | Pullup**             |
++----------------------+----------------------+
+| TdoPin               | Pullnone             |
++----------------------+----------------------+
+| TmsPin               | Pullup**             |
++----------------------+----------------------+
+| UnusedPin            | Pulldown*            |
++----------------------+----------------------+
+| GWE_cycle            | 6*                   |
++----------------------+----------------------+
+| GTS_cycle            | 5*                   |
++----------------------+----------------------+
+| LCK_cycle            | NoWait**             |
++----------------------+----------------------+
+| DONE_cycle           | 4*                   |
++----------------------+----------------------+
+| Persist              | No**                 |
++----------------------+----------------------+
+| DriveDone            | No*                  |
++----------------------+----------------------+
+| DonePipe             | No*                  |
++----------------------+----------------------+
+| Security             | None**               |
++----------------------+----------------------+
+| UserID               | 0xFFFFFFFF*          |
++----------------------+----------------------+
+| ActivateGclk         | No*                  |
++----------------------+----------------------+
+| ActiveReconfig       | No*                  |
++----------------------+----------------------+
+| PartialMask0         | (Not Specified)*     |
++----------------------+----------------------+
+| PartialMask1         | (Not Specified)*     |
++----------------------+----------------------+
+| PartialMask2         | (Not Specified)*     |
++----------------------+----------------------+
+| PartialGclk          | (Not Specified)*     |
++----------------------+----------------------+
+| PartialLeft          | (Not Specified)*     |
++----------------------+----------------------+
+| PartialRight         | (Not Specified)*     |
++----------------------+----------------------+
+| drive_awake          | No*                  |
++----------------------+----------------------+
+| Reset_on_err         | No*                  |
++----------------------+----------------------+
+| suspend_filter       | Yes*                 |
++----------------------+----------------------+
+| en_sw_gsr            | No*                  |
++----------------------+----------------------+
+| en_suspend           | No*                  |
++----------------------+----------------------+
+| en_porb              | Yes*                 |
++----------------------+----------------------+
+| sw_clk               | Startupclk*          |
++----------------------+----------------------+
+| sw_gwe_cycle         | 5*                   |
++----------------------+----------------------+
+| sw_gts_cycle         | 4*                   |
++----------------------+----------------------+
+| glutmask             | Yes*                 |
++----------------------+----------------------+
+| next_config_addr     | 0x00000000*          |
++----------------------+----------------------+
+| next_config_new_mode | No*                  |
++----------------------+----------------------+
+| next_config_boot_mode | 001*                 |
++----------------------+----------------------+
+| next_config_register_write | Enable*              |
++----------------------+----------------------+
+| ICAP_Enable          | Auto*                |
++----------------------+----------------------+
+| IEEE1532             | No*                  |
++----------------------+----------------------+
+| Binary               | No*                  |
++----------------------+----------------------+
+ *  Default setting.
+ ** The specified setting matches the default setting.
+
+
+INFO:Data2MEM:100 - BRAM 'lmb_bram/lmb_bram/ramb16bwer_0' updated to placement 'RAMB16_X1Y17' from design.
+
+
+INFO:Data2MEM:100 - BRAM 'lmb_bram/lmb_bram/ramb16bwer_1' updated to placement 'RAMB16_X2Y20' from design.
+
+
+INFO:Data2MEM:100 - BRAM 'lmb_bram/lmb_bram/ramb16bwer_2' updated to placement 'RAMB16_X1Y16' from design.
+
+
+INFO:Data2MEM:100 - BRAM 'lmb_bram/lmb_bram/ramb16bwer_3' updated to placement 'RAMB16_X1Y15' from design.
+
+
+INFO:Data2MEM:100 - BRAM 'lmb_bram/lmb_bram/ramb16bwer_4' updated to placement 'RAMB16_X2Y19' from design.
+
+
+INFO:Data2MEM:100 - BRAM 'lmb_bram/lmb_bram/ramb16bwer_5' updated to placement 'RAMB16_X2Y16' from design.
+
+
+INFO:Data2MEM:100 - BRAM 'lmb_bram/lmb_bram/ramb16bwer_6' updated to placement 'RAMB16_X1Y14' from design.
+
+
+INFO:Data2MEM:100 - BRAM 'lmb_bram/lmb_bram/ramb16bwer_7' updated to placement 'RAMB16_X2Y21' from design.
+
+
+INFO:Data2MEM:100 - BRAM 'lmb_bram/lmb_bram/ramb16bwer_8' updated to placement 'RAMB16_X3Y16' from design.
+
+
+INFO:Data2MEM:100 - BRAM 'lmb_bram/lmb_bram/ramb16bwer_9' updated to placement 'RAMB16_X3Y17' from design.
+
+
+INFO:Data2MEM:100 - BRAM 'lmb_bram/lmb_bram/ramb16bwer_10' updated to placement 'RAMB16_X3Y15' from design.
+
+
+INFO:Data2MEM:100 - BRAM 'lmb_bram/lmb_bram/ramb16bwer_11' updated to placement 'RAMB16_X1Y13' from design.
+
+
+INFO:Data2MEM:100 - BRAM 'lmb_bram/lmb_bram/ramb16bwer_12' updated to placement 'RAMB16_X2Y17' from design.
+
+
+INFO:Data2MEM:100 - BRAM 'lmb_bram/lmb_bram/ramb16bwer_13' updated to placement 'RAMB16_X2Y15' from design.
+
+
+INFO:Data2MEM:100 - BRAM 'lmb_bram/lmb_bram/ramb16bwer_14' updated to placement 'RAMB16_X3Y14' from design.
+
+
+INFO:Data2MEM:100 - BRAM 'lmb_bram/lmb_bram/ramb16bwer_15' updated to placement 'RAMB16_X2Y14' from design.
+
+
+INFO:Data2MEM:100 - BRAM 'lmb_bram/lmb_bram/ramb16bwer_16' updated to placement 'RAMB16_X3Y12' from design.
+
+
+INFO:Data2MEM:100 - BRAM 'lmb_bram/lmb_bram/ramb16bwer_17' updated to placement 'RAMB16_X2Y11' from design.
+
+
+INFO:Data2MEM:100 - BRAM 'lmb_bram/lmb_bram/ramb16bwer_18' updated to placement 'RAMB16_X3Y13' from design.
+
+
+INFO:Data2MEM:100 - BRAM 'lmb_bram/lmb_bram/ramb16bwer_19' updated to placement 'RAMB16_X1Y12' from design.
+
+
+INFO:Data2MEM:100 - BRAM 'lmb_bram/lmb_bram/ramb16bwer_20' updated to placement 'RAMB16_X2Y18' from design.
+
+
+INFO:Data2MEM:100 - BRAM 'lmb_bram/lmb_bram/ramb16bwer_21' updated to placement 'RAMB16_X2Y12' from design.
+
+
+INFO:Data2MEM:100 - BRAM 'lmb_bram/lmb_bram/ramb16bwer_22' updated to placement 'RAMB16_X1Y11' from design.
+
+
+INFO:Data2MEM:100 - BRAM 'lmb_bram/lmb_bram/ramb16bwer_23' updated to placement 'RAMB16_X2Y10' from design.
+
+
+INFO:Data2MEM:100 - BRAM 'lmb_bram/lmb_bram/ramb16bwer_24' updated to placement 'RAMB16_X3Y9' from design.
+
+
+INFO:Data2MEM:100 - BRAM 'lmb_bram/lmb_bram/ramb16bwer_25' updated to placement 'RAMB16_X2Y9' from design.
+
+
+INFO:Data2MEM:100 - BRAM 'lmb_bram/lmb_bram/ramb16bwer_26' updated to placement 'RAMB16_X2Y5' from design.
+
+
+INFO:Data2MEM:100 - BRAM 'lmb_bram/lmb_bram/ramb16bwer_27' updated to placement 'RAMB16_X1Y10' from design.
+
+
+INFO:Data2MEM:100 - BRAM 'lmb_bram/lmb_bram/ramb16bwer_28' updated to placement 'RAMB16_X2Y7' from design.
+
+
+INFO:Data2MEM:100 - BRAM 'lmb_bram/lmb_bram/ramb16bwer_29' updated to placement 'RAMB16_X2Y8' from design.
+
+
+INFO:Data2MEM:100 - BRAM 'lmb_bram/lmb_bram/ramb16bwer_30' updated to placement 'RAMB16_X2Y6' from design.
+
+
+INFO:Data2MEM:100 - BRAM 'lmb_bram/lmb_bram/ramb16bwer_31' updated to placement 'RAMB16_X3Y8' from design.
+
+Running DRC.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dqs
+   _delayed_col0<3> is sourced by a combinatorial pin. This is not good design
+   practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dqs
+   _delayed_col0<2> is sourced by a combinatorial pin. This is not good design
+   practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dqs
+   _delayed_col0<1> is sourced by a combinatorial pin. This is not good design
+   practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dqs
+   _delayed_col0<0> is sourced by a combinatorial pin. This is not good design
+   practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dqs
+   _delayed_col1<3> is sourced by a combinatorial pin. This is not good design
+   practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dqs
+   _delayed_col1<2> is sourced by a combinatorial pin. This is not good design
+   practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dqs
+   _delayed_col1<1> is sourced by a combinatorial pin. This is not good design
+   practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/dqs
+   _delayed_col1<0> is sourced by a combinatorial pin. This is not good design
+   practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:367 - The signal <ilmb_LMB_ABus<10>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ilmb_LMB_ABus<30>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ilmb_LMB_ABus<31>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ilmb_LMB_ABus<3>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ilmb_LMB_ABus<4>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ilmb_LMB_ABus<5>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ilmb_LMB_ABus<6>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ilmb_LMB_ABus<2>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ilmb_LMB_ABus<15>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ilmb_LMB_ABus<7>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ilmb_LMB_ABus<12>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ilmb_LMB_ABus<13>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ilmb_LMB_ABus<1>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ilmb_LMB_ABus<8>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ilmb_LMB_ABus<9>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ilmb_LMB_ABus<11>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ilmb_LMB_ABus<14>> is incomplete. The
+   signal does not drive any load pins in the design.
+DRC detected 0 errors and 25 warnings.  Please see the previously displayed
+individual error or warning messages for more details.
+INFO:Security:67 - XILINXD_LICENSE_FILE is set to
+'/opt/Xilinx/11.5/EDK/data/core_licenses' in /home/aalonso/.flexlmrc.
+INFO:Security:54 - 'xc3sd1800a' is a WebPack part.
+WARNING:Security:42 - Your license support version '2010.04' for WebPack expires
+in 24 days after which you will not qualify for Xilinx software updates or new
+releases.
+
+Creating bit map...
+Saving bit stream in "system.bit".
+Bitstream generation is complete.

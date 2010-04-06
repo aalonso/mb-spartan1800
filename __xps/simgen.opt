@@ -1,0 +1,1 @@
+ -p spartan3adsp -lang vhdl   $(MICROBLAZE_0_BOOTLOOP)  -msg __xps/ise/xmsgprops.lst -s mti
